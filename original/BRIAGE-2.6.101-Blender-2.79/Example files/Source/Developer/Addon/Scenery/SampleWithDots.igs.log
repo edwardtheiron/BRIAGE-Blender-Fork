@@ -1,0 +1,2850 @@
+BRIAGE:: 'PROPERTY': MainObject to find = 1_1000_BiDuLe
+BRIAGE:: 'PROPERTY':  MainObject found = 1_1000_BiDuLe
+BRIAGE:: 'INFO':  CenterMainObject: exported model moved by X=0.122961 Y=-0.211694 Z=-0.205195 (Blender axis)
+
+BRIAGE:: 'INFO':  object '1_1000_BiDuLe' has been processed in a group
+BRIAGE:: 'WARNING':  Object 'BiDuLe.001' processed as '1_1000_BiDuLe.001' (to comply with LOD naming rule). The converted name is used for LOD processing and may be used if the object is head of group.
+BRIAGE:: 'INFO':  object 'BiDuLe.001' has been processed in a group
+
+ ------------------ Groups list -----------------
+ --- 2 groups ---
+
+--- Group --- 1_1000_BiDuLe (1 item)
+    LOD level 1 / LOD distance 1000 / keyword None
+    Parent group: None
+    Group objects:
+                  1_1000_BiDuLe
+
+--- Group --- 1_1000_BiDuLe.001 (1 item)
+    LOD level 1 / LOD distance 1000 / keyword None
+    Parent group: None
+    Group objects:
+                  BiDuLe.001
+
+BRIAGE:: 'PROPERTY':  UVArguments for material truc: 0.0 0.0 0.0 0.0 0.0 0.0
+BRIAGE:: 'PROPERTY':  UVArguments for material trucVF: 0.0 0.0 0.0 0.0 0.0 0.0
+BRIAGE:: 'INFO':  '#sb_SnapInOut1' computed as snap point: 'sb_SnapInOut1'
+================================================================================
+                           ___ ___ ___   _   ___ ___ 
+                          | _ ) _ \_ _| /_\ / __| __|
+                          | _ \   /| | / _ \ (_ | _| 
+                          |___/_|_\___/_/ \_\___|___|
+BRIAGE V2.2.003 - IGSE V2.1.502 - IAE V2.1.101 
+
+================================================================================
+================================================================================
+IG file header information (0)
+--------------------------------------------------------------------------------
+MagicId                       : 'KIGF'
+Version                       : 151
+Descriptor                    : 'SHAPE'
+CommentField                  : 'Blender 2.77.0 - IGSE V2.1.502'
+DataStart                     : 0
+ObjectCount                   : 2
+ObjectListStartOffset         : 12112
+MeshCount                     : 2
+MeshListStartOffset           : 11800
+BoneCount                     : 0
+BoneListStartOffset           : 0 NULL ==> None
+MaterialCount                 : 2
+MaterialListStartOffset       : 216
+LightCount                    : 0
+LightListStartOffset          : 0 NULL ==> None
+AmbientColor -------------------.
+  Red                           : 1.000000
+  Green                         : 1.000000
+  Blue                          : 1.000000
+  Alpha                         : 1.000000
+SplineCount                   : 0
+SplineListStartOffset         : 0 NULL ==> None
+GenericItemCount              : 1
+GenericItemListStartOffset    : 12632
+ExtraData ----------------------. 
+  DataBlockCount                : 1
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+ExtraDataBlockListStartOffset : 12852
+================================================================================
+Materials list (2 materials):
+--------------------------------------------------------------------------------
+         Name         |             Shader             |              First texture               / UVArguments
+ truc                 | TrainBasicObjectDiffuse.fx     | Textures\Test                            / [0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+ trucVF               | AddATex                        | Textures\Test                            / [0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+================================================================================
+IGfMaterials                  : [ 2 ]
+--------------------------------------------------------------------------------
+IGfMaterials [ 1 / 2 ] (216) : 'truc'
+------------------------------.
+Name                          : 'truc'
+ShaderName                    : 'TrainBasicObjectDiffuse.fx'
+RenderStageCount              : 1
+RenderStage0 -------------------.
+  TextureNameStartOffset        : 1
+  Padding                       : ''
+  UVChannelIndex                : 0
+  FilterMode                    : 3
+  UVOperation                   : 0
+  UVWrapU                       : 0
+  UVWrapV                       : 0
+  MipLODBias                    : 0.000000
+  AnimateUVs                    : 0
+  NumFrames                     : 1
+  FPS                           : 25
+  ScrollUVs                     : 0
+  ScrollU                       : 0.000000
+  ScrollV                       : 1.000000
+  UVArguments                   : [0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+NeverOccludeFlag              : 0
+SortPriority                  : 0
+ZBias                         : 0
+AlphaTestMode                 : 1
+AdditiveAlphaStrength         : 0
+ZBufferMode                   : 1
+BackfaceCull                  : 0
+TwoSided                      : 0
+ViewFacing                  : 0
+VisibleDistanceMod            : 0
+SurfaceTypeName               : ''
+UseLightGlowFlag              : 0
+UsePulseGlowFlag              : 0
+LightGlowTypeName             : ''
+PulseGlowConfig ----------------.
+  TargColor ----------------------.
+    Red                           : 0.780000
+    Green                         : 0.780000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+  Mode                          : 0
+  Phase                         : 0.000000
+  Period                        : 5.000000
+  Amplitude                     : 1.000000
+  RptTimeMin                    : 1.000000
+  RptTimeMax                    : 5.000000
+  ExeTimeMin                    : 1.000000
+  ExeTimeMax                    : 5.000000
+  ActivationTime                : 0.000000
+  SeqMode                       : ''
+  VertexModify                  : 0
+UnfoggableFlag                : 0
+Force32BitFlag                : 0
+AmbientColor -------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+DiffuseColor -------------------.
+    Red                           : 0.299148
+    Green                         : 0.410892
+    Blue                          : 0.613323
+    Alpha                         : 1.000000
+EmissiveColor -------------------.
+    Red                           : 0.000000
+    Green                         : 0.000000
+    Blue                          : 0.000000
+    Alpha                         : 1.000000
+EmissiveStrength              :  0.000000
+SpecularColor ------------------.
+    Red                           : 0.904011
+    Green                         : 0.886080
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+SpecularPower                 : 25.000000
+LightMapCastShadows           : 1
+LightMapGenerateShadows       : 1
+LightMapKeepVertexColours     : 0
+LightMapTexelsPerMetre        : 4.000000
+MaterialComment               : ''
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfMaterials [ 2 / 2 ] (2004) : 'trucVF'
+------------------------------.
+Name                          : 'trucVF'
+ShaderName                    : 'AddATex'
+RenderStageCount              : 1
+RenderStage0 -------------------.
+  TextureNameStartOffset        : 2
+  Padding                       : ''
+  UVChannelIndex                : 0
+  FilterMode                    : 3
+  UVOperation                   : 0
+  UVWrapU                       : 0
+  UVWrapV                       : 0
+  MipLODBias                    : 0.000000
+  AnimateUVs                    : 0
+  NumFrames                     : 1
+  FPS                           : 25
+  ScrollUVs                     : 0
+  ScrollU                       : 0.000000
+  ScrollV                       : 1.000000
+  UVArguments                   : [0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+NeverOccludeFlag              : 0
+SortPriority                  : 0
+ZBias                         : 0
+AlphaTestMode                 : 0
+AdditiveAlphaStrength         : 0
+ZBufferMode                   : 3
+BackfaceCull                  : 1
+TwoSided                      : 0
+ViewFacing                  : 2
+VisibleDistanceMod            : 0
+SurfaceTypeName               : ''
+UseLightGlowFlag              : 0
+UsePulseGlowFlag              : 0
+LightGlowTypeName             : ''
+PulseGlowConfig ----------------.
+  TargColor ----------------------.
+    Red                           : 0.780000
+    Green                         : 0.780000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+  Mode                          : 0
+  Phase                         : 0.000000
+  Period                        : 5.000000
+  Amplitude                     : 1.000000
+  RptTimeMin                    : 1.000000
+  RptTimeMax                    : 5.000000
+  ExeTimeMin                    : 1.000000
+  ExeTimeMax                    : 5.000000
+  ActivationTime                : 0.000000
+  SeqMode                       : ''
+  VertexModify                  : 0
+UnfoggableFlag                : 0
+Force32BitFlag                : 0
+AmbientColor -------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+DiffuseColor -------------------.
+    Red                           : 0.299148
+    Green                         : 0.410892
+    Blue                          : 0.613323
+    Alpha                         : 1.000000
+EmissiveColor -------------------.
+    Red                           : 0.000000
+    Green                         : 0.000000
+    Blue                          : 0.000000
+    Alpha                         : 1.000000
+EmissiveStrength              :  0.000000
+SpecularColor ------------------.
+    Red                           : 0.904011
+    Green                         : 0.886080
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+SpecularPower                 : 25.000000
+LightMapCastShadows           : 1
+LightMapGenerateShadows       : 1
+LightMapKeepVertexColours     : 0
+LightMapTexelsPerMetre        : 4.000000
+MaterialComment               : ''
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+================================================================================
+IGfVerts                      : [ 28 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 1 / 28 ] (3792)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : -1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.180392
+    Blue                          : 0.819608
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 2 / 28 ] (4032)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : -1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.207843
+    Blue                          : 0.823529
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 3 / 28 ] (4272)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : 1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.274510
+    Blue                          : 0.835294
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 4 / 28 ] (4512)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : 1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.231373
+    Blue                          : 0.831373
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 5 / 28 ] (4752)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : 1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.231373
+    Blue                          : 0.831373
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 6 / 28 ] (4992)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : 1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.196078
+    Blue                          : 0.823529
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 7 / 28 ] (5232)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : -1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.168627
+    Blue                          : 0.815686
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 8 / 28 ] (5472)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : -1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.180392
+    Blue                          : 0.819608
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 9 / 28 ] (5712)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : 1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 10 / 28 ] (5952)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : 1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 11 / 28 ] (6192)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : -1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 12 / 28 ] (6432)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : -1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 13 / 28 ] (6672)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : -1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -0.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.333333
+    Green                         : 1.000000
+    Blue                          : 0.666667
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 14 / 28 ] (6912)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : -1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -0.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 15 / 28 ] (7152)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : 1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -0.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 16 / 28 ] (7392)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : 1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -0.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.325490
+    Green                         : 1.000000
+    Blue                          : 0.658824
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 17 / 28 ] (7632)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : -1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -1.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.207843
+    Blue                          : 0.823529
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 18 / 28 ] (7872)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : -1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -1.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.180392
+    Blue                          : 0.819608
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 19 / 28 ] (8112)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : -1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -1.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.168627
+    Blue                          : 0.815686
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 20 / 28 ] (8352)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : -1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -1.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 0.239216
+    Blue                          : 0.831373
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 21 / 28 ] (8592)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : 1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 1.000000
+  Z                             : -0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 22 / 28 ] (8832)
+------------------------------.
+Point --------------------------.
+  X                             : 1.000000
+  Y                             : 1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 1.000000
+  Z                             : -0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.309804
+    Green                         : 1.000000
+    Blue                          : 0.654902
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 23 / 28 ] (9072)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : 1.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 1.000000
+  Z                             : -0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.337255
+    Green                         : 1.000000
+    Blue                          : 0.666667
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 24 / 28 ] (9312)
+------------------------------.
+Point --------------------------.
+  X                             : -1.000000
+  Y                             : 1.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 1.000000
+  Z                             : -0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 0.325490
+    Green                         : 1.000000
+    Blue                          : 0.658824
+    Alpha                         : 1.000000
+MaterialStartOffset           : 216
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 25 / 28 ] (9552)
+------------------------------.
+Point --------------------------.
+  X                             : -0.255615
+  Y                             : -0.396096
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+MaterialStartOffset           : 2004
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 26 / 28 ] (9792)
+------------------------------.
+Point --------------------------.
+  X                             : -0.255615
+  Y                             : -0.396096
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+MaterialStartOffset           : 2004
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 27 / 28 ] (10032)
+------------------------------.
+Point --------------------------.
+  X                             : -0.255615
+  Y                             : 1.603904
+  Z                             : -1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 0.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+MaterialStartOffset           : 2004
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfVerts [ 28 / 28 ] (10272)
+------------------------------.
+Point --------------------------.
+  X                             : -0.255615
+  Y                             : 1.603904
+  Z                             : 1.000000
+  Weight                        : 1.000000
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+ValidUVsCount                 : 1
+UV00 ---------------------------.
+  U                             : 1.0
+  V                             : 1.0
+UV01 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV02 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV03 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV04 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV05 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV06 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+UV07 ---------------------------.
+  U                             : 0.0
+  V                             : 0.0
+Color --------------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+MaterialStartOffset           : 2004
+BoneCount                     : 0
+BoneBinding00 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding01 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding02 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding03 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding04 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding05 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding06 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+BoneBinding07 ------------------.
+  BoneListStartOffset           :  0 NULL ==> None
+  Weight                        : 0.0
+Reserved                      : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+================================================================================
+IGfTriangles                  : [ 14 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 1 / 14 ] (10512)
+------------------------------.
+Vertex0                       : 3792
+Vertex1                       : 4032
+Vertex2                       : 4272
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 4
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 2 / 14 ] (10604)
+------------------------------.
+Vertex0                       : 3792
+Vertex1                       : 4272
+Vertex2                       : 4512
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 1
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 3 / 14 ] (10696)
+------------------------------.
+Vertex0                       : 4752
+Vertex1                       : 4992
+Vertex2                       : 5232
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 4
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 4 / 14 ] (10788)
+------------------------------.
+Vertex0                       : 4752
+Vertex1                       : 5232
+Vertex2                       : 5472
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 1.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 1
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 5 / 14 ] (10880)
+------------------------------.
+Vertex0                       : 5712
+Vertex1                       : 5952
+Vertex2                       : 6192
+Normal -------------------------.
+  X                             : 1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 4
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 6 / 14 ] (10972)
+------------------------------.
+Vertex0                       : 5712
+Vertex1                       : 6192
+Vertex2                       : 6432
+Normal -------------------------.
+  X                             : 1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 1
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 7 / 14 ] (11064)
+------------------------------.
+Vertex0                       : 6672
+Vertex1                       : 6912
+Vertex2                       : 7152
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -0.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 4
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 8 / 14 ] (11156)
+------------------------------.
+Vertex0                       : 6672
+Vertex1                       : 7152
+Vertex2                       : 7392
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -0.000000
+  Z                             : -1.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 1
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 9 / 14 ] (11248)
+------------------------------.
+Vertex0                       : 7632
+Vertex1                       : 7872
+Vertex2                       : 8112
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -1.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 4
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 10 / 14 ] (11340)
+------------------------------.
+Vertex0                       : 7632
+Vertex1                       : 8112
+Vertex2                       : 8352
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : -1.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 1
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 11 / 14 ] (11432)
+------------------------------.
+Vertex0                       : 8592
+Vertex1                       : 8832
+Vertex2                       : 9072
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 1.000000
+  Z                             : -0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 4
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 12 / 14 ] (11524)
+------------------------------.
+Vertex0                       : 8592
+Vertex1                       : 9072
+Vertex2                       : 9312
+Normal -------------------------.
+  X                             : 0.000000
+  Y                             : 1.000000
+  Z                             : -0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 1
+MaterialStartOffset           : 216
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 13 / 14 ] (11616)
+------------------------------.
+Vertex0                       : 9552
+Vertex1                       : 9792
+Vertex2                       : 10032
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 0
+MaterialStartOffset           : 2004
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfTriangles [ 14 / 14 ] (11708)
+------------------------------.
+Vertex0                       : 9552
+Vertex1                       : 10032
+Vertex2                       : 10272
+Normal -------------------------.
+  X                             : -1.000000
+  Y                             : 0.000000
+  Z                             : 0.000000
+  Weight                        : 1.000000
+HiddenEdges                   : 0
+MaterialStartOffset           : 2004
+SMGroup                       : 0
+TagID                         : 0
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+================================================================================
+IGfMeshes                     : [ 2 ]
+--------------------------------------------------------------------------------
+IGfMeshes [ 1 / 2 ] (11800)
+------------------------------.
+IsSkinned                     : 0
+VerticesCount                 : 24
+VerticesStartOffset           : 3792
+TrianglesCount                : 12
+TrianglesStartOffset          : 10512
+BoundingBox --------------------.
+  LowerLeftPointX               : -1.000000
+  LowerLeftPointY               : -1.000000
+  LowerLeftPointZ               : -1.000000
+  LowerLeftPointScale           : 1.000000
+  UpperRightPointX              : 1.000000
+  UpperRightPointY              : 1.000000
+  UpperRightPointZ              : 1.100000
+  UpperRightPointScale          : 1.000000
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfMeshes [ 2 / 2 ] (11900)
+------------------------------.
+IsSkinned                     : 0
+VerticesCount                 : 4
+VerticesStartOffset           : 9552
+TrianglesCount                : 2
+TrianglesStartOffset          : 11616
+BoundingBox --------------------.
+  LowerLeftPointX               : -0.730756
+  LowerLeftPointY               : -0.396096
+  LowerLeftPointZ               : -1.000000
+  LowerLeftPointScale           : 1.000000
+  UpperRightPointX              : -0.255615
+  UpperRightPointY              : 2.168290
+  UpperRightPointZ              : 1.296371
+  UpperRightPointScale          : 1.000000
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+================================================================================
+IGfMeshLODs                   : [ 2 ]
+--------------------------------------------------------------------------------
+IGfMeshLODs [ 1 / 2 ] (12000)
+------------------------------.
+VisibleDistance               : 1000.000000
+MeshListStartOffset           : 11800
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfMeshLODs [ 2 / 2 ] (12056)
+------------------------------.
+VisibleDistance               : 1000.000000
+MeshListStartOffset           : 11900
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+================================================================================
+IGfObjects                    : [ 2 ]
+--------------------------------------------------------------------------------
+IGfObjects [ 1 / 2 ] (12112)
+------------------------------.
+Name                          : '1_1000_BiDuLe'
+NameUniqueID                  : 0
+MeshLODCount                  : 1
+MeshLODListStartOffset        : 12000
+TM -----------------------------.
+      1.000000   0.000000   0.000000   0.000000
+      0.000000   1.000000   0.000000   0.000000
+      0.000000   0.000000   1.000000   0.000000
+      0.000000   1.100000   0.000000   1.000000
+ParentStartOffset             : 0
+ChildrenCount                 : 0
+ChildStartOffset00            : 0 NULL ==> None
+ChildStartOffset01            : 0 NULL ==> None
+ChildStartOffset02            : 0 NULL ==> None
+ChildStartOffset03            : 0 NULL ==> None
+ChildStartOffset04            : 0 NULL ==> None
+ChildStartOffset05            : 0 NULL ==> None
+ChildStartOffset06            : 0 NULL ==> None
+ChildStartOffset07            : 0 NULL ==> None
+ChildStartOffset08            : 0 NULL ==> None
+ChildStartOffset09            : 0 NULL ==> None
+ChildStartOffset10            : 0 NULL ==> None
+ChildStartOffset11            : 0 NULL ==> None
+ChildStartOffset12            : 0 NULL ==> None
+ChildStartOffset13            : 0 NULL ==> None
+ChildStartOffset14            : 0 NULL ==> None
+ChildStartOffset15            : 0 NULL ==> None
+ChildStartOffset16            : 0 NULL ==> None
+ChildStartOffset17            : 0 NULL ==> None
+ChildStartOffset18            : 0 NULL ==> None
+ChildStartOffset19            : 0 NULL ==> None
+ChildStartOffset20            : 0 NULL ==> None
+ChildStartOffset21            : 0 NULL ==> None
+ChildStartOffset22            : 0 NULL ==> None
+ChildStartOffset23            : 0 NULL ==> None
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+IGfObjects [ 2 / 2 ] (12372)
+------------------------------.
+Name                          : '1_1000_BiDuLe.001'
+NameUniqueID                  : 1
+MeshLODCount                  : 1
+MeshLODListStartOffset        : 12056
+TM -----------------------------.
+      1.000000   0.000000   0.000000   0.000000
+      0.000000   1.000000   0.000000   0.000000
+      0.000000   0.000000   1.000000   0.000000
+     -0.730756   1.296371   2.168290   1.000000
+ParentStartOffset             : 0
+ChildrenCount                 : 0
+ChildStartOffset00            : 0 NULL ==> None
+ChildStartOffset01            : 0 NULL ==> None
+ChildStartOffset02            : 0 NULL ==> None
+ChildStartOffset03            : 0 NULL ==> None
+ChildStartOffset04            : 0 NULL ==> None
+ChildStartOffset05            : 0 NULL ==> None
+ChildStartOffset06            : 0 NULL ==> None
+ChildStartOffset07            : 0 NULL ==> None
+ChildStartOffset08            : 0 NULL ==> None
+ChildStartOffset09            : 0 NULL ==> None
+ChildStartOffset10            : 0 NULL ==> None
+ChildStartOffset11            : 0 NULL ==> None
+ChildStartOffset12            : 0 NULL ==> None
+ChildStartOffset13            : 0 NULL ==> None
+ChildStartOffset14            : 0 NULL ==> None
+ChildStartOffset15            : 0 NULL ==> None
+ChildStartOffset16            : 0 NULL ==> None
+ChildStartOffset17            : 0 NULL ==> None
+ChildStartOffset18            : 0 NULL ==> None
+ChildStartOffset19            : 0 NULL ==> None
+ChildStartOffset20            : 0 NULL ==> None
+ChildStartOffset21            : 0 NULL ==> None
+ChildStartOffset22            : 0 NULL ==> None
+ChildStartOffset23            : 0 NULL ==> None
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+================================================================================
+IGfBones                    : [ 0 ]
+================================================================================
+IGfGenericSceneItem           : [ 1 ]
+--------------------------------------------------------------------------------
+IGfGenericSceneItem [ 1 / 1 ] (12632)
+------------------------------.
+Name                          : 'sb_SnapInOut1'
+NameUniqueID                  : 0
+TM -----------------------------.
+      1.000000   0.000000   0.000000   0.000000
+      0.000000   1.000000   0.000000   0.000000
+      0.000000   0.000000   1.000000   0.000000
+      0.122961   2.103095  -0.211694   1.000000
+BoundingBox --------------------.
+  LowerLeftPointX               : 0.000000
+  LowerLeftPointY               : 0.000000
+  LowerLeftPointZ               : 0.000000
+  LowerLeftPointScale           : 0.000000
+  UpperRightPointX              : 0.000000
+  UpperRightPointY              : 0.000000
+  UpperRightPointZ              : 0.000000
+  UpperRightPointScale          : 0.000000
+Parent                        : 12112
+--------------------------------------------------------------------------------
+IGGenericSceneData (12560)
+------------------------------.
+Type                          : '0'
+mICustomParam                 : (0, 0, 0, 0)
+mFCustomParam                 : (0.0, 0.0, 0.0, 0.0)
+ExtraData ----------------------. 
+  DataBlockCount                : 0
+  DataBlockStartOffset          : 0
+  Pad0                          : ''
+  Pad1                          : [ 0 ,  0 ]
+--------------------------------------------------------------------------------
+================================================================================
+IGfDataBlocks                 : [ 1 ]
+--------------------------------------------------------------------------------
+IGfDataBlocks [ 1 / 1 ] (12852)
+------------------------------.
+Name                          : 'Texture name table'
+UniqueID                      : 2
+DataStartOffset               : 44
+DataSize                      : 0
+--------------------------------------------------------------------------------
+================================================================================
+IGTextureNames               : [ 1 ]
+--------------------------------------------------------------------------------
+IGfTextureNames [ 1 / 1 ] (44)
+------------------------------.
+TextureNameListLength         : 28
+TextureNameCount              : 2
+--------------------------------------------------------------------------------
+TextureNameStartOffsetList -----.
+  TextureNameStartOffset[1]     : 0 (TextureName[1])
+  TextureNameStartOffset[2]     : 14 (TextureName[2])
+TextureNameList ----------------.
+  TextureName[1]                : 'Textures\Test'
+  TextureName[2]                : 'Textures\Test'
+BRIAGE:: 'INFO':  IGS export time: 0.03

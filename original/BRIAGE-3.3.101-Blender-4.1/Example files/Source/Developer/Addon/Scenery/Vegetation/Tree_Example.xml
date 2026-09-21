@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cSceneryBlueprint>
+	<Element>
+		<Value>
+			<Attribute name="Name">
+				<cDeltaString>
+					<Element>
+						<Value>Example Tree</Value>
+					</Element>
+				</cDeltaString>
+			</Attribute>
+			<Attribute name="BrowseInformation">
+				<iBrowseableBlueprint-cBrowseInformation>
+					<Element>
+						<Value>
+							<Attribute name="DisplayName">
+								<Localisation-cUserLocalisedString>
+									<Element>
+										<Value>
+											<Attribute name="English">
+												<cDeltaString>
+													<Element>
+														<Value>Example Tree</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="French">
+												<cDeltaString>
+													<Element>
+														<Value>Example Tree</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Italian">
+												<cDeltaString>
+													<Element>
+														<Value>Example Tree</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="German">
+												<cDeltaString>
+													<Element>
+														<Value>Example Tree</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Spanish">
+												<cDeltaString>
+													<Element>
+														<Value>Example Tree</Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Other">
+												<__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+													<Element>
+														<Value/>
+													</Element>
+												</__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+											</Attribute>
+										</Value>
+									</Element>
+								</Localisation-cUserLocalisedString>
+							</Attribute>
+							<Attribute name="Category">
+								<iBrowseableBlueprint-eBrowseableCategory>
+									<Element>
+										<Value>eFoliageWater</Value>
+									</Element>
+								</iBrowseableBlueprint-eBrowseableCategory>
+							</Attribute>
+							<Attribute name="ValidInScenarios">
+								<eBoolean>
+									<Element>
+										<Value>eFalse</Value>
+									</Element>
+								</eBoolean>
+							</Attribute>
+						</Value>
+					</Element>
+				</iBrowseableBlueprint-cBrowseInformation>
+			</Attribute>
+			<Attribute name="RenderComponent">
+				<cSceneryRenderBlueprint>
+					<Element>
+						<Value>
+							<Attribute name="PrimaryNamedTextureSet">
+								<iBlueprintLibrary-cAbsoluteBlueprintID>
+									<Element>
+										<Value>
+											<Attribute name="BlueprintSetID">
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Element>
+														<Value>
+															<Attribute name="Provider">
+																<cDeltaString>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cDeltaString>
+															</Attribute>
+															<Attribute name="Product">
+																<cDeltaString>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cDeltaString>
+															</Attribute>
+														</Value>
+													</Element>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</Attribute>
+											<Attribute name="BlueprintID">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+										</Value>
+									</Element>
+								</iBlueprintLibrary-cAbsoluteBlueprintID>
+							</Attribute>
+							<Attribute name="SecondaryNamedTextureSet">
+								<iBlueprintLibrary-cAbsoluteBlueprintID>
+									<Element>
+										<Value>
+											<Attribute name="BlueprintSetID">
+												<iBlueprintLibrary-cBlueprintSetID>
+													<Element>
+														<Value>
+															<Attribute name="Provider">
+																<cDeltaString>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cDeltaString>
+															</Attribute>
+															<Attribute name="Product">
+																<cDeltaString>
+																	<Element>
+																		<Value></Value>
+																	</Element>
+																</cDeltaString>
+															</Attribute>
+														</Value>
+													</Element>
+												</iBlueprintLibrary-cBlueprintSetID>
+											</Attribute>
+											<Attribute name="BlueprintID">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+										</Value>
+									</Element>
+								</iBlueprintLibrary-cAbsoluteBlueprintID>
+							</Attribute>
+							<Attribute name="GeometryID">
+								<cDeltaString>
+									<Element>
+										<Value>Scenery\Vegetation\Tree_Example</Value>
+									</Element>
+								</cDeltaString>
+							</Attribute>
+							<Attribute name="CollisionGeometryID">
+								<cDeltaString>
+									<Element>
+										<Value></Value>
+									</Element>
+								</cDeltaString>
+							</Attribute>
+							<Attribute name="Pickable">
+								<eBoolean>
+									<Element>
+										<Value>eTrue</Value>
+									</Element>
+								</eBoolean>
+							</Attribute>
+							<Attribute name="ShadowType">
+								<eShadowType>
+									<Element>
+										<Value>eShadowType_Blobby</Value>
+									</Element>
+								</eShadowType>
+							</Attribute>
+							<Attribute name="HeatHaze">
+								<__Indexed__cSceneryRenderBlueprint-sHeatHaze>
+									<Element>
+										<Value/>
+									</Element>
+								</__Indexed__cSceneryRenderBlueprint-sHeatHaze>
+							</Attribute>
+							<Attribute name="TexText">
+								<__Indexed__cSceneryRenderBlueprint-sTexText>
+									<Element>
+										<Value/>
+									</Element>
+								</__Indexed__cSceneryRenderBlueprint-sTexText>
+							</Attribute>
+							<Attribute name="ProjectedLightElement">
+								<__Indexed__cSceneryRenderBlueprint-sProjectedLight>
+									<Element>
+										<Value/>
+									</Element>
+								</__Indexed__cSceneryRenderBlueprint-sProjectedLight>
+							</Attribute>
+							<Attribute name="Instancable">
+								<bool>
+									<Element>
+										<Value>0</Value>
+									</Element>
+								</bool>
+							</Attribute>
+							<Attribute name="DetailLevelGenerationRange">
+								<cSceneryRenderBlueprint-sDetailLevelGenerationRange>
+									<Element>
+										<Value>
+											<Attribute name="HighestLevel_1isHighest">
+												<sInt32>
+													<Element>
+														<Value>1</Value>
+													</Element>
+												</sInt32>
+											</Attribute>
+											<Attribute name="LowestLevel_10isLowest">
+												<sInt32>
+													<Element>
+														<Value>10</Value>
+													</Element>
+												</sInt32>
+											</Attribute>
+										</Value>
+									</Element>
+								</cSceneryRenderBlueprint-sDetailLevelGenerationRange>
+							</Attribute>
+						</Value>
+					</Element>
+				</cSceneryRenderBlueprint>
+			</Attribute>
+			<Attribute name="PosOriComponent">
+				<cPosOriBlueprint>
+					<Element>
+						<Value/>
+					</Element>
+				</cPosOriBlueprint>
+			</Attribute>
+			<Attribute name="ContainerComponent">
+				<cEntityContainerBlueprint>
+					<Element>
+						<Value>
+							<Attribute name="Children">
+								<__Indexed__cEntityContainerBlueprint-sChild>
+									<Element>
+										<Value/>
+									</Element>
+								</__Indexed__cEntityContainerBlueprint-sChild>
+							</Attribute>
+						</Value>
+					</Element>
+				</cEntityContainerBlueprint>
+			</Attribute>
+			<Attribute name="CollisionComponent">
+				<cCollisionComponentBlueprint>
+					<Element>
+						<Value>
+							<Attribute name="Boxes">
+								<__Indexed__cHcR3dBox>
+									<Element>
+										<Value>
+											<cHcR3dBox>
+												<Element>
+													<Value>
+														<Attribute name="Width">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value></Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>1</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>1.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="Height">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value></Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>2</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>6.540319</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="Depth">
+															<sFloat32>
+																<Element>
+																	<ToolData>
+																		<Tool name="tool_cWinToolFloatDatum">
+																			<cWinToolFloatDatum>
+																				<Element>
+																					<Value>
+																						<Attribute name="mUnits">
+																							<cFxString8>
+																								<Element>
+																									<Value></Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																						<Attribute name="mTypedIn">
+																							<cFxString8>
+																								<Element>
+																									<Value>1</Value>
+																								</Element>
+																							</cFxString8>
+																						</Attribute>
+																					</Value>
+																				</Element>
+																			</cWinToolFloatDatum>
+																		</Tool>
+																	</ToolData>
+																	<Value>1.000000</Value>
+																</Element>
+															</sFloat32>
+														</Attribute>
+														<Attribute name="Element">
+															<__Indexed__sFloat32>
+																<Element>
+																	<Value>
+																		<sFloat32>
+																			<Element>
+																				<Value>1.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>1.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>1.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>2.980000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>0.000000</Value>
+																			</Element>
+																		</sFloat32>
+																		<sFloat32>
+																			<Element>
+																				<Value>1.000000</Value>
+																			</Element>
+																		</sFloat32>
+																	</Value>
+																</Element>
+															</__Indexed__sFloat32>
+														</Attribute>
+													</Value>
+												</Element>
+											</cHcR3dBox>
+										</Value>
+									</Element>
+								</__Indexed__cHcR3dBox>
+							</Attribute>
+							<Attribute name="RequiredAtEndOfTrack">
+								<bool>
+									<Element>
+										<Value>0</Value>
+									</Element>
+								</bool>
+							</Attribute>
+						</Value>
+					</Element>
+				</cCollisionComponentBlueprint>
+			</Attribute>
+		</Value>
+	</Element>
+</cSceneryBlueprint>

@@ -1,0 +1,1255 @@
+ >>>> INFO: Using IGS options from blend file: "G:\Program Files\Steam\SteamApps\common\railworks\Source\Developer\Addon\Scenery\Prez.blend" <<<<
+ INFO:  MainObject to find = LEgros2
+ MainObject found = LEgros2
+ INFO: CenterMainObject: exported anim moved by X=-0.000000 Y=-0.000000 Z=-0.000000 (Blender axis)
+
+
+
+
+BRIAGE:: 'INFO':  Keyframes count = 30 (frame start=1 / frame end=30)
+BRIAGE:: 'INFO':  Frame count multipler = 2
+BRIAGE:: 'INFO':  Processing ARMATURE 'deform1'
+================================================================================
+                           ___ ___ ___   _   ___ ___ 
+                          | _ ) _ \_ _| /_\ / __| __|
+                          | _ \   /| | / _ \ (_ | _| 
+                          |___/_|_\___/_/ \_\___|___|
+BRIAGE V2.2.014 - IGSE V2.1.503 - IAE V2.1.101 
+
+================================================================================
+================================================================================
+IAfHeaders                    : [ 1 ]
+--------------------------------------------------------------------------------
+IAfHeaders [ 1  /  1  ] (0)  
+------------------------------.
+MagicId                       : 'KIAF'
+Version                       : 100
+CommentField                  : 'Blender 2.77.0 - IAE V2.1.101'
+DataStart                     : 0
+TotalFrames                   : 58
+SampleRate                    : 50
+TriggerTimeline ----------------.
+  TriggerKeyCount               : 0
+  TriggerListStartOffset        : 0
+AnimationNodeCount            : 2
+AnimationNodeListStartOffset  : 104
+DataEnd                       : 0
+================================================================================
+IAfAnimationNodes             : [ 2 ]
+--------------------------------------------------------------------------------
+IAfAnimationNodes [ 1  /  2  ] (104) :
+------------------------------.
+Name                          : b0
+MotionControllerCount         : 2
+MotionControllerListStartOffset : 192
+Flags                         : 0
+--------------------------------------------------------------------------------
+IAfAnimationNodes [ 2  /  2  ] (148) :
+------------------------------.
+Name                          : b1
+MotionControllerCount         : 2
+MotionControllerListStartOffset : 216
+Flags                         : 0
+================================================================================
+IAfMotionControllers          : [ 4 ]
+--------------------------------------------------------------------------------
+IAfMotionControllers [ 1  /  4  ] (192) :
+------------------------------.
+MotionControllerType          : 0
+KeySize                       : 16
+KeyStreamObjectStartOffset    : 240
+--------------------------------------------------------------------------------
+IAfMotionControllers [ 2  /  4  ] (204) :
+------------------------------.
+MotionControllerType          : 1
+KeySize                       : 16
+KeyStreamObjectStartOffset    : 1168
+--------------------------------------------------------------------------------
+IAfMotionControllers [ 3  /  4  ] (216) :
+------------------------------.
+MotionControllerType          : 0
+KeySize                       : 16
+KeyStreamObjectStartOffset    : 2096
+--------------------------------------------------------------------------------
+IAfMotionControllers [ 4  /  4  ] (228) :
+------------------------------.
+MotionControllerType          : 1
+KeySize                       : 16
+KeyStreamObjectStartOffset    : 3024
+================================================================================
+IAfMotionSets                 : [ 4 ]
+--------------------------------------------------------------------------------
+IAfMotionSets [ 1  /  4  ] (240) :
+------------------------------.
+MotionVector4Frame000 ----------.
+  X                             : 5.000000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame001 ----------.
+  X                             : 4.937320
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame002 ----------.
+  X                             : 4.874640
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame003 ----------.
+  X                             : 4.689742
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame004 ----------.
+  X                             : 4.504844
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame005 ----------.
+  X                             : 4.207001
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame006 ----------.
+  X                             : 3.909158
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame007 ----------.
+  X                             : 3.513303
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame008 ----------.
+  X                             : 3.117449
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame009 ----------.
+  X                             : 2.643434
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame010 ----------.
+  X                             : 2.169418
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame011 ----------.
+  X                             : 1.641011
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame012 ----------.
+  X                             : 1.112605
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame013 ----------.
+  X                             : 0.556302
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame014 ----------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame015 ----------.
+  X                             : -0.556302
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame016 ----------.
+  X                             : -1.112605
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame017 ----------.
+  X                             : -1.641012
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame018 ----------.
+  X                             : -2.169419
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame019 ----------.
+  X                             : -2.643435
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame020 ----------.
+  X                             : -3.117450
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame021 ----------.
+  X                             : -3.513304
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame022 ----------.
+  X                             : -3.909159
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame023 ----------.
+  X                             : -4.207001
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame024 ----------.
+  X                             : -4.504844
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame025 ----------.
+  X                             : -4.689742
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame026 ----------.
+  X                             : -4.874640
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame027 ----------.
+  X                             : -4.937320
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame028 ----------.
+  X                             : -5.000000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame029 ----------.
+  X                             : -4.945369
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame030 ----------.
+  X                             : -4.890738
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame031 ----------.
+  X                             : -4.729233
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame032 ----------.
+  X                             : -4.567727
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame033 ----------.
+  X                             : -4.306406
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame034 ----------.
+  X                             : -4.045085
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame035 ----------.
+  X                             : -3.695369
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame036 ----------.
+  X                             : -3.345653
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame037 ----------.
+  X                             : -2.922826
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame038 ----------.
+  X                             : -2.500000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame039 ----------.
+  X                             : -2.022542
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame040 ----------.
+  X                             : -1.545085
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame041 ----------.
+  X                             : -1.033864
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame042 ----------.
+  X                             : -0.522642
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame043 ----------.
+  X                             : 0.000000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame044 ----------.
+  X                             : 0.522643
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame045 ----------.
+  X                             : 1.033864
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame046 ----------.
+  X                             : 1.545085
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame047 ----------.
+  X                             : 2.022543
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame048 ----------.
+  X                             : 2.500000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame049 ----------.
+  X                             : 2.922827
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame050 ----------.
+  X                             : 3.345654
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame051 ----------.
+  X                             : 3.695369
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame052 ----------.
+  X                             : 4.045085
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame053 ----------.
+  X                             : 4.306406
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame054 ----------.
+  X                             : 4.567727
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame055 ----------.
+  X                             : 4.729233
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame056 ----------.
+  X                             : 4.890738
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame057 ----------.
+  X                             : 4.945369
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+--------------------------------------------------------------------------------
+IAfMotionSets [ 2  /  4  ] (1168) :
+------------------------------.
+MotionQuaternionFrame000 -------.
+  x                             : 0.000000
+  y                             : 0.707107
+  z                             : 0.000000
+  w                             : 0.707107
+MotionQuaternionFrame001 -------.
+  x                             : 0.000000
+  y                             : 0.745642
+  z                             : 0.000000
+  w                             : 0.666347
+MotionQuaternionFrame002 -------.
+  x                             : 0.000000
+  y                             : 0.781832
+  z                             : 0.000000
+  w                             : 0.623490
+MotionQuaternionFrame003 -------.
+  x                             : 0.000000
+  y                             : 0.815561
+  z                             : 0.000000
+  w                             : 0.578671
+MotionQuaternionFrame004 -------.
+  x                             : 0.000000
+  y                             : 0.846724
+  z                             : 0.000000
+  w                             : 0.532032
+MotionQuaternionFrame005 -------.
+  x                             : 0.000000
+  y                             : 0.875223
+  z                             : 0.000000
+  w                             : 0.483719
+MotionQuaternionFrame006 -------.
+  x                             : 0.000000
+  y                             : 0.900969
+  z                             : 0.000000
+  w                             : 0.433884
+MotionQuaternionFrame007 -------.
+  x                             : 0.000000
+  y                             : 0.923880
+  z                             : 0.000000
+  w                             : 0.382683
+MotionQuaternionFrame008 -------.
+  x                             : 0.000000
+  y                             : 0.943883
+  z                             : 0.000000
+  w                             : 0.330279
+MotionQuaternionFrame009 -------.
+  x                             : 0.000000
+  y                             : 0.960917
+  z                             : 0.000000
+  w                             : 0.276835
+MotionQuaternionFrame010 -------.
+  x                             : 0.000000
+  y                             : 0.974928
+  z                             : 0.000000
+  w                             : 0.222521
+MotionQuaternionFrame011 -------.
+  x                             : 0.000000
+  y                             : 0.985871
+  z                             : 0.000000
+  w                             : 0.167506
+MotionQuaternionFrame012 -------.
+  x                             : 0.000000
+  y                             : 0.993712
+  z                             : 0.000000
+  w                             : 0.111965
+MotionQuaternionFrame013 -------.
+  x                             : 0.000000
+  y                             : 0.998427
+  z                             : 0.000000
+  w                             : 0.056070
+MotionQuaternionFrame014 -------.
+  x                             : 0.000000
+  y                             : 1.000000
+  z                             : 0.000000
+  w                             : -0.000000
+MotionQuaternionFrame015 -------.
+  x                             : 0.000000
+  y                             : -0.998427
+  z                             : 0.000000
+  w                             : 0.056070
+MotionQuaternionFrame016 -------.
+  x                             : 0.000000
+  y                             : -0.993712
+  z                             : 0.000000
+  w                             : 0.111964
+MotionQuaternionFrame017 -------.
+  x                             : 0.000000
+  y                             : -0.985871
+  z                             : 0.000000
+  w                             : 0.167506
+MotionQuaternionFrame018 -------.
+  x                             : 0.000000
+  y                             : -0.974928
+  z                             : 0.000000
+  w                             : 0.222521
+MotionQuaternionFrame019 -------.
+  x                             : 0.000000
+  y                             : -0.960917
+  z                             : 0.000000
+  w                             : 0.276835
+MotionQuaternionFrame020 -------.
+  x                             : 0.000000
+  y                             : -0.943883
+  z                             : 0.000000
+  w                             : 0.330279
+MotionQuaternionFrame021 -------.
+  x                             : 0.000000
+  y                             : -0.923880
+  z                             : 0.000000
+  w                             : 0.382683
+MotionQuaternionFrame022 -------.
+  x                             : 0.000000
+  y                             : -0.900969
+  z                             : 0.000000
+  w                             : 0.433884
+MotionQuaternionFrame023 -------.
+  x                             : 0.000000
+  y                             : -0.875223
+  z                             : 0.000000
+  w                             : 0.483719
+MotionQuaternionFrame024 -------.
+  x                             : 0.000000
+  y                             : -0.846724
+  z                             : 0.000000
+  w                             : 0.532032
+MotionQuaternionFrame025 -------.
+  x                             : 0.000000
+  y                             : -0.815561
+  z                             : 0.000000
+  w                             : 0.578671
+MotionQuaternionFrame026 -------.
+  x                             : 0.000000
+  y                             : -0.781832
+  z                             : 0.000000
+  w                             : 0.623490
+MotionQuaternionFrame027 -------.
+  x                             : 0.000000
+  y                             : -0.745642
+  z                             : 0.000000
+  w                             : 0.666347
+MotionQuaternionFrame028 -------.
+  x                             : 0.000000
+  y                             : -0.707107
+  z                             : 0.000000
+  w                             : 0.707107
+MotionQuaternionFrame029 -------.
+  x                             : 0.000000
+  y                             : -0.743145
+  z                             : 0.000000
+  w                             : 0.669131
+MotionQuaternionFrame030 -------.
+  x                             : 0.000000
+  y                             : -0.777146
+  z                             : 0.000000
+  w                             : 0.629320
+MotionQuaternionFrame031 -------.
+  x                             : 0.000000
+  y                             : -0.809017
+  z                             : 0.000000
+  w                             : 0.587785
+MotionQuaternionFrame032 -------.
+  x                             : 0.000000
+  y                             : -0.838671
+  z                             : 0.000000
+  w                             : 0.544639
+MotionQuaternionFrame033 -------.
+  x                             : 0.000000
+  y                             : -0.866025
+  z                             : 0.000000
+  w                             : 0.500000
+MotionQuaternionFrame034 -------.
+  x                             : 0.000000
+  y                             : -0.891007
+  z                             : 0.000000
+  w                             : 0.453991
+MotionQuaternionFrame035 -------.
+  x                             : 0.000000
+  y                             : -0.913545
+  z                             : 0.000000
+  w                             : 0.406737
+MotionQuaternionFrame036 -------.
+  x                             : 0.000000
+  y                             : -0.933581
+  z                             : 0.000000
+  w                             : 0.358368
+MotionQuaternionFrame037 -------.
+  x                             : 0.000000
+  y                             : -0.951057
+  z                             : 0.000000
+  w                             : 0.309017
+MotionQuaternionFrame038 -------.
+  x                             : 0.000000
+  y                             : -0.965926
+  z                             : 0.000000
+  w                             : 0.258819
+MotionQuaternionFrame039 -------.
+  x                             : 0.000000
+  y                             : -0.978148
+  z                             : 0.000000
+  w                             : 0.207912
+MotionQuaternionFrame040 -------.
+  x                             : 0.000000
+  y                             : -0.987688
+  z                             : 0.000000
+  w                             : 0.156435
+MotionQuaternionFrame041 -------.
+  x                             : 0.000000
+  y                             : -0.994522
+  z                             : 0.000000
+  w                             : 0.104528
+MotionQuaternionFrame042 -------.
+  x                             : 0.000000
+  y                             : -0.998630
+  z                             : 0.000000
+  w                             : 0.052336
+MotionQuaternionFrame043 -------.
+  x                             : 0.000000
+  y                             : 1.000000
+  z                             : 0.000000
+  w                             : 0.000000
+MotionQuaternionFrame044 -------.
+  x                             : 0.000000
+  y                             : 0.998630
+  z                             : 0.000000
+  w                             : 0.052336
+MotionQuaternionFrame045 -------.
+  x                             : 0.000000
+  y                             : 0.994522
+  z                             : 0.000000
+  w                             : 0.104528
+MotionQuaternionFrame046 -------.
+  x                             : 0.000000
+  y                             : 0.987688
+  z                             : 0.000000
+  w                             : 0.156434
+MotionQuaternionFrame047 -------.
+  x                             : 0.000000
+  y                             : 0.978148
+  z                             : 0.000000
+  w                             : 0.207912
+MotionQuaternionFrame048 -------.
+  x                             : 0.000000
+  y                             : 0.965926
+  z                             : 0.000000
+  w                             : 0.258819
+MotionQuaternionFrame049 -------.
+  x                             : 0.000000
+  y                             : 0.951056
+  z                             : 0.000000
+  w                             : 0.309017
+MotionQuaternionFrame050 -------.
+  x                             : 0.000000
+  y                             : 0.933580
+  z                             : 0.000000
+  w                             : 0.358368
+MotionQuaternionFrame051 -------.
+  x                             : 0.000000
+  y                             : 0.913545
+  z                             : 0.000000
+  w                             : 0.406737
+MotionQuaternionFrame052 -------.
+  x                             : 0.000000
+  y                             : 0.891007
+  z                             : 0.000000
+  w                             : 0.453991
+MotionQuaternionFrame053 -------.
+  x                             : 0.000000
+  y                             : 0.866025
+  z                             : 0.000000
+  w                             : 0.500000
+MotionQuaternionFrame054 -------.
+  x                             : 0.000000
+  y                             : 0.838671
+  z                             : 0.000000
+  w                             : 0.544639
+MotionQuaternionFrame055 -------.
+  x                             : 0.000000
+  y                             : 0.809017
+  z                             : 0.000000
+  w                             : 0.587785
+MotionQuaternionFrame056 -------.
+  x                             : 0.000000
+  y                             : 0.777146
+  z                             : 0.000000
+  w                             : 0.629320
+MotionQuaternionFrame057 -------.
+  x                             : 0.000000
+  y                             : 0.743145
+  z                             : 0.000000
+  w                             : 0.669131
+--------------------------------------------------------------------------------
+IAfMotionSets [ 3  /  4  ] (2096) :
+------------------------------.
+MotionVector4Frame000 ----------.
+  X                             : -5.000000
+  Y                             : 0.000000
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame001 ----------.
+  X                             : -4.937320
+  Y                             : 0.049093
+  Z                             : 5.556302
+  Weight                        : 1.000000
+MotionVector4Frame002 ----------.
+  X                             : -4.874640
+  Y                             : 0.098186
+  Z                             : 6.112605
+  Weight                        : 1.000000
+MotionVector4Frame003 ----------.
+  X                             : -4.689742
+  Y                             : 0.246595
+  Z                             : 6.641012
+  Weight                        : 1.000000
+MotionVector4Frame004 ----------.
+  X                             : -4.504844
+  Y                             : 0.395004
+  Z                             : 7.169419
+  Weight                        : 1.000000
+MotionVector4Frame005 ----------.
+  X                             : -4.207001
+  Y                             : 0.641946
+  Z                             : 7.643435
+  Weight                        : 1.000000
+MotionVector4Frame006 ----------.
+  X                             : -3.909158
+  Y                             : 0.888889
+  Z                             : 8.117450
+  Weight                        : 1.000000
+MotionVector4Frame007 ----------.
+  X                             : -3.513303
+  Y                             : 1.229224
+  Z                             : 8.513304
+  Weight                        : 1.000000
+MotionVector4Frame008 ----------.
+  X                             : -3.117449
+  Y                             : 1.569559
+  Z                             : 8.909158
+  Weight                        : 1.000000
+MotionVector4Frame009 ----------.
+  X                             : -2.643434
+  Y                             : 1.992545
+  Z                             : 9.207001
+  Weight                        : 1.000000
+MotionVector4Frame010 ----------.
+  X                             : -2.169418
+  Y                             : 2.415531
+  Z                             : 9.504845
+  Weight                        : 1.000000
+MotionVector4Frame011 ----------.
+  X                             : -1.641011
+  Y                             : 2.904073
+  Z                             : 9.689742
+  Weight                        : 1.000000
+MotionVector4Frame012 ----------.
+  X                             : -1.112605
+  Y                             : 3.392616
+  Z                             : 9.874640
+  Weight                        : 1.000000
+MotionVector4Frame013 ----------.
+  X                             : -0.556302
+  Y                             : 3.923519
+  Z                             : 9.937320
+  Weight                        : 1.000000
+MotionVector4Frame014 ----------.
+  X                             : 0.000001
+  Y                             : 4.454422
+  Z                             : 10.000000
+  Weight                        : 1.000000
+MotionVector4Frame015 ----------.
+  X                             : 0.556303
+  Y                             : 5.000000
+  Z                             : 9.937320
+  Weight                        : 1.000000
+MotionVector4Frame016 ----------.
+  X                             : 1.112605
+  Y                             : 5.545577
+  Z                             : 9.874640
+  Weight                        : 1.000000
+MotionVector4Frame017 ----------.
+  X                             : 1.641012
+  Y                             : 6.076481
+  Z                             : 9.689742
+  Weight                        : 1.000000
+MotionVector4Frame018 ----------.
+  X                             : 2.169420
+  Y                             : 6.607385
+  Z                             : 9.504845
+  Weight                        : 1.000000
+MotionVector4Frame019 ----------.
+  X                             : 2.643435
+  Y                             : 7.095927
+  Z                             : 9.207001
+  Weight                        : 1.000000
+MotionVector4Frame020 ----------.
+  X                             : 3.117450
+  Y                             : 7.584469
+  Z                             : 8.909158
+  Weight                        : 1.000000
+MotionVector4Frame021 ----------.
+  X                             : 3.513304
+  Y                             : 8.007455
+  Z                             : 8.513304
+  Weight                        : 1.000000
+MotionVector4Frame022 ----------.
+  X                             : 3.909159
+  Y                             : 8.430441
+  Z                             : 8.117450
+  Weight                        : 1.000000
+MotionVector4Frame023 ----------.
+  X                             : 4.207002
+  Y                             : 8.770776
+  Z                             : 7.643434
+  Weight                        : 1.000000
+MotionVector4Frame024 ----------.
+  X                             : 4.504845
+  Y                             : 9.111111
+  Z                             : 7.169417
+  Weight                        : 1.000000
+MotionVector4Frame025 ----------.
+  X                             : 4.689743
+  Y                             : 9.358053
+  Z                             : 6.641011
+  Weight                        : 1.000000
+MotionVector4Frame026 ----------.
+  X                             : 4.874640
+  Y                             : 9.604997
+  Z                             : 6.112605
+  Weight                        : 1.000000
+MotionVector4Frame027 ----------.
+  X                             : 4.937321
+  Y                             : 9.753407
+  Z                             : 5.556302
+  Weight                        : 1.000000
+MotionVector4Frame028 ----------.
+  X                             : 5.000000
+  Y                             : 9.901815
+  Z                             : 5.000000
+  Weight                        : 1.000000
+MotionVector4Frame029 ----------.
+  X                             : 4.945370
+  Y                             : 9.950908
+  Z                             : 5.519778
+  Weight                        : 1.000000
+MotionVector4Frame030 ----------.
+  X                             : 4.890738
+  Y                             : 10.000000
+  Z                             : 6.039557
+  Weight                        : 1.000000
+MotionVector4Frame031 ----------.
+  X                             : 4.729233
+  Y                             : 9.629368
+  Z                             : 6.536620
+  Weight                        : 1.000000
+MotionVector4Frame032 ----------.
+  X                             : 4.567728
+  Y                             : 9.258736
+  Z                             : 7.033683
+  Weight                        : 1.000000
+MotionVector4Frame033 ----------.
+  X                             : 4.306407
+  Y                             : 8.180049
+  Z                             : 7.486304
+  Weight                        : 1.000000
+MotionVector4Frame034 ----------.
+  X                             : 4.045086
+  Y                             : 7.101363
+  Z                             : 7.938926
+  Weight                        : 1.000000
+MotionVector4Frame035 ----------.
+  X                             : 3.695370
+  Y                             : 5.550681
+  Z                             : 8.327325
+  Weight                        : 1.000000
+MotionVector4Frame036 ----------.
+  X                             : 3.345653
+  Y                             : 4.000000
+  Z                             : 8.715724
+  Weight                        : 1.000000
+MotionVector4Frame037 ----------.
+  X                             : 2.922827
+  Y                             : 2.449319
+  Z                             : 9.022925
+  Weight                        : 1.000000
+MotionVector4Frame038 ----------.
+  X                             : 2.500000
+  Y                             : 0.898638
+  Z                             : 9.330127
+  Weight                        : 1.000000
+MotionVector4Frame039 ----------.
+  X                             : 2.022543
+  Y                             : -0.180050
+  Z                             : 9.542705
+  Weight                        : 1.000000
+MotionVector4Frame040 ----------.
+  X                             : 1.545086
+  Y                             : -1.258738
+  Z                             : 9.755282
+  Weight                        : 1.000000
+MotionVector4Frame041 ----------.
+  X                             : 1.033864
+  Y                             : -1.629369
+  Z                             : 9.863947
+  Weight                        : 1.000000
+MotionVector4Frame042 ----------.
+  X                             : 0.522642
+  Y                             : -2.000000
+  Z                             : 9.972610
+  Weight                        : 1.000000
+MotionVector4Frame043 ----------.
+  X                             : 0.000000
+  Y                             : -1.516894
+  Z                             : 9.972610
+  Weight                        : 1.000000
+MotionVector4Frame044 ----------.
+  X                             : -0.522642
+  Y                             : -1.033787
+  Z                             : 9.972610
+  Weight                        : 1.000000
+MotionVector4Frame045 ----------.
+  X                             : -1.033864
+  Y                             : -0.000000
+  Z                             : 9.863947
+  Weight                        : 1.000000
+MotionVector4Frame046 ----------.
+  X                             : -1.545085
+  Y                             : 1.033787
+  Z                             : 9.755283
+  Weight                        : 1.000000
+MotionVector4Frame047 ----------.
+  X                             : -2.022542
+  Y                             : 1.516894
+  Z                             : 9.542706
+  Weight                        : 1.000000
+MotionVector4Frame048 ----------.
+  X                             : -2.500000
+  Y                             : 2.000000
+  Z                             : 9.330128
+  Weight                        : 1.000000
+MotionVector4Frame049 ----------.
+  X                             : -2.922826
+  Y                             : 1.637670
+  Z                             : 9.022926
+  Weight                        : 1.000000
+MotionVector4Frame050 ----------.
+  X                             : -3.345653
+  Y                             : 1.275341
+  Z                             : 8.715725
+  Weight                        : 1.000000
+MotionVector4Frame051 ----------.
+  X                             : -3.695369
+  Y                             : 0.500000
+  Z                             : 8.327326
+  Weight                        : 1.000000
+MotionVector4Frame052 ----------.
+  X                             : -4.045085
+  Y                             : -0.275341
+  Z                             : 7.938926
+  Weight                        : 1.000000
+MotionVector4Frame053 ----------.
+  X                             : -4.306406
+  Y                             : -0.637670
+  Z                             : 7.486305
+  Weight                        : 1.000000
+MotionVector4Frame054 ----------.
+  X                             : -4.567727
+  Y                             : -1.000000
+  Z                             : 7.033683
+  Weight                        : 1.000000
+MotionVector4Frame055 ----------.
+  X                             : -4.729232
+  Y                             : -0.750000
+  Z                             : 6.536621
+  Weight                        : 1.000000
+MotionVector4Frame056 ----------.
+  X                             : -4.890737
+  Y                             : -0.500000
+  Z                             : 6.039558
+  Weight                        : 1.000000
+MotionVector4Frame057 ----------.
+  X                             : -4.945369
+  Y                             : -0.250000
+  Z                             : 5.519779
+  Weight                        : 1.000000
+--------------------------------------------------------------------------------
+IAfMotionSets [ 4  /  4  ] (3024) :
+------------------------------.
+MotionQuaternionFrame000 -------.
+  x                             : 0.500000
+  y                             : -0.500000
+  z                             : -0.500000
+  w                             : 0.500000
+MotionQuaternionFrame001 -------.
+  x                             : 0.471968
+  y                             : -0.526542
+  z                             : -0.526541
+  w                             : 0.471968
+MotionQuaternionFrame002 -------.
+  x                             : 0.442530
+  y                             : -0.551514
+  z                             : -0.551514
+  w                             : 0.442530
+MotionQuaternionFrame003 -------.
+  x                             : 0.413514
+  y                             : -0.573590
+  z                             : -0.573590
+  w                             : 0.413514
+MotionQuaternionFrame004 -------.
+  x                             : 0.383399
+  y                             : -0.594142
+  z                             : -0.594142
+  w                             : 0.383399
+MotionQuaternionFrame005 -------.
+  x                             : 0.354109
+  y                             : -0.612052
+  z                             : -0.612051
+  w                             : 0.354109
+MotionQuaternionFrame006 -------.
+  x                             : 0.323983
+  y                             : -0.628518
+  z                             : -0.628518
+  w                             : 0.323983
+MotionQuaternionFrame007 -------.
+  x                             : 0.294929
+  y                             : -0.642664
+  z                             : -0.642664
+  w                             : 0.294929
+MotionQuaternionFrame008 -------.
+  x                             : 0.265258
+  y                             : -0.655468
+  z                             : -0.655468
+  w                             : 0.265258
+MotionQuaternionFrame009 -------.
+  x                             : 0.236716
+  y                             : -0.666307
+  z                             : -0.666307
+  w                             : 0.236716
+MotionQuaternionFrame010 -------.
+  x                             : 0.207733
+  y                             : -0.675905
+  z                             : -0.675905
+  w                             : 0.207733
+MotionQuaternionFrame011 -------.
+  x                             : 0.179732
+  y                             : -0.683883
+  z                             : -0.683883
+  w                             : 0.179732
+MotionQuaternionFrame012 -------.
+  x                             : 0.151427
+  y                             : -0.690703
+  z                             : -0.690702
+  w                             : 0.151427
+MotionQuaternionFrame013 -------.
+  x                             : 0.123765
+  y                             : -0.696191
+  z                             : -0.696191
+  w                             : 0.123765
+MotionQuaternionFrame014 -------.
+  x                             : 0.095907
+  y                             : -0.700573
+  z                             : -0.700572
+  w                             : 0.095907
+MotionQuaternionFrame015 -------.
+  x                             : 0.068212
+  y                             : -0.703809
+  z                             : -0.703809
+  w                             : 0.068212
+MotionQuaternionFrame016 -------.
+  x                             : 0.040411
+  y                             : -0.705951
+  z                             : -0.705951
+  w                             : 0.040411
+MotionQuaternionFrame017 -------.
+  x                             : -0.012230
+  y                             : 0.707001
+  z                             : 0.707001
+  w                             : -0.012230
+MotionQuaternionFrame018 -------.
+  x                             : 0.015969
+  y                             : 0.706926
+  z                             : 0.706926
+  w                             : 0.015969
+MotionQuaternionFrame019 -------.
+  x                             : 0.045058
+  y                             : 0.705670
+  z                             : 0.705670
+  w                             : 0.045058
+MotionQuaternionFrame020 -------.
+  x                             : 0.074071
+  y                             : 0.703217
+  z                             : 0.703217
+  w                             : 0.074071
+MotionQuaternionFrame021 -------.
+  x                             : 0.104358
+  y                             : 0.699364
+  z                             : 0.699364
+  w                             : 0.104358
+MotionQuaternionFrame022 -------.
+  x                             : 0.134450
+  y                             : 0.694207
+  z                             : 0.694207
+  w                             : 0.134450
+MotionQuaternionFrame023 -------.
+  x                             : 0.166027
+  y                             : 0.687339
+  z                             : 0.687339
+  w                             : 0.166027
+MotionQuaternionFrame024 -------.
+  x                             : 0.197258
+  y                             : 0.679036
+  z                             : 0.679036
+  w                             : 0.197258
+MotionQuaternionFrame025 -------.
+  x                             : 0.229984
+  y                             : 0.668661
+  z                             : 0.668661
+  w                             : 0.229984
+MotionQuaternionFrame026 -------.
+  x                             : 0.262169
+  y                             : 0.656710
+  z                             : 0.656710
+  w                             : 0.262169
+MotionQuaternionFrame027 -------.
+  x                             : 0.295670
+  y                             : 0.642323
+  z                             : 0.642323
+  w                             : 0.295670
+MotionQuaternionFrame028 -------.
+  x                             : 0.328385
+  y                             : 0.626229
+  z                             : 0.626229
+  w                             : 0.328385
+MotionQuaternionFrame029 -------.
+  x                             : 0.294197
+  y                             : 0.642999
+  z                             : 0.642999
+  w                             : 0.294197
+MotionQuaternionFrame030 -------.
+  x                             : 0.259156
+  y                             : 0.657905
+  z                             : 0.657905
+  w                             : 0.259156
+MotionQuaternionFrame031 -------.
+  x                             : 0.235183
+  y                             : 0.666850
+  z                             : 0.666850
+  w                             : 0.235183
+MotionQuaternionFrame032 -------.
+  x                             : 0.210902
+  y                             : 0.674922
+  z                             : 0.674922
+  w                             : 0.210902
+MotionQuaternionFrame033 -------.
+  x                             : 0.207324
+  y                             : 0.676020
+  z                             : 0.676020
+  w                             : 0.207324
+MotionQuaternionFrame034 -------.
+  x                             : 0.203745
+  y                             : 0.677117
+  z                             : 0.677117
+  w                             : 0.203745
+MotionQuaternionFrame035 -------.
+  x                             : 0.214082
+  y                             : 0.673921
+  z                             : 0.673921
+  w                             : 0.214082
+MotionQuaternionFrame036 -------.
+  x                             : 0.224368
+  y                             : 0.670566
+  z                             : 0.670566
+  w                             : 0.224368
+MotionQuaternionFrame037 -------.
+  x                             : 0.234602
+  y                             : 0.667055
+  z                             : 0.667055
+  w                             : 0.234602
+MotionQuaternionFrame038 -------.
+  x                             : 0.244781
+  y                             : 0.663387
+  z                             : 0.663387
+  w                             : 0.244781
+MotionQuaternionFrame039 -------.
+  x                             : 0.241263
+  y                             : 0.664664
+  z                             : 0.664664
+  w                             : 0.241263
+MotionQuaternionFrame040 -------.
+  x                             : 0.237745
+  y                             : 0.665941
+  z                             : 0.665941
+  w                             : 0.237745
+MotionQuaternionFrame041 -------.
+  x                             : 0.213495
+  y                             : 0.674107
+  z                             : 0.674107
+  w                             : 0.213495
+MotionQuaternionFrame042 -------.
+  x                             : 0.188966
+  y                             : 0.681390
+  z                             : 0.681390
+  w                             : 0.188966
+MotionQuaternionFrame043 -------.
+  x                             : 0.123814
+  y                             : 0.696182
+  z                             : 0.696182
+  w                             : 0.123814
+MotionQuaternionFrame044 -------.
+  x                             : 0.057557
+  y                             : 0.704760
+  z                             : 0.704760
+  w                             : 0.057557
+MotionQuaternionFrame045 -------.
+  x                             : 0.043168
+  y                             : -0.705788
+  z                             : -0.705788
+  w                             : 0.043168
+MotionQuaternionFrame046 -------.
+  x                             : 0.143017
+  y                             : -0.692493
+  z                             : -0.692493
+  w                             : 0.143017
+MotionQuaternionFrame047 -------.
+  x                             : 0.207735
+  y                             : -0.675904
+  z                             : -0.675904
+  w                             : 0.207735
+MotionQuaternionFrame048 -------.
+  x                             : 0.270598
+  y                             : -0.653282
+  z                             : -0.653282
+  w                             : 0.270598
+MotionQuaternionFrame049 -------.
+  x                             : 0.290897
+  y                             : -0.644499
+  z                             : -0.644499
+  w                             : 0.290897
+MotionQuaternionFrame050 -------.
+  x                             : 0.310912
+  y                             : -0.635086
+  z                             : -0.635086
+  w                             : 0.310912
+MotionQuaternionFrame051 -------.
+  x                             : 0.315509
+  y                             : -0.632814
+  z                             : -0.632814
+  w                             : 0.315509
+MotionQuaternionFrame052 -------.
+  x                             : 0.320091
+  y                             : -0.630509
+  z                             : -0.630509
+  w                             : 0.320091
+MotionQuaternionFrame053 -------.
+  x                             : 0.339653
+  y                             : -0.620190
+  z                             : -0.620190
+  w                             : 0.339653
+MotionQuaternionFrame054 -------.
+  x                             : 0.358884
+  y                             : -0.609264
+  z                             : -0.609264
+  w                             : 0.358884
+MotionQuaternionFrame055 -------.
+  x                             : 0.396687
+  y                             : -0.585354
+  z                             : -0.585354
+  w                             : 0.396687
+MotionQuaternionFrame056 -------.
+  x                             : 0.432903
+  y                             : -0.559102
+  z                             : -0.559102
+  w                             : 0.432903
+MotionQuaternionFrame057 -------.
+  x                             : 0.467387
+  y                             : -0.530613
+  z                             : -0.530613
+  w                             : 0.467387
+
+
+IA export time: 0.02

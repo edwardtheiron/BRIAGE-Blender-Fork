@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cPlatformCharactersBlueprint>
+	<Element>
+		<Value>
+			<Attribute name="AudioControl">
+				<cDeltaString>
+					<Element>
+						<Value>Audio\RailNetwork\Platforms\Platform.xml</Value>
+					</Element>
+				</cDeltaString>
+			</Attribute>
+			<Attribute name="PlatformCharacters">
+				<__Indexed__cPlatformCharactersBlueprint-sPlatformCharacter>
+					<Element>
+						<Value>
+							<cPlatformCharactersBlueprint-sPlatformCharacter>
+								<Element>
+									<Value>
+										<Attribute name="PlatformCharacter">
+											<iBlueprintLibrary-cAbsoluteBlueprintID>
+												<Element>
+													<Value>
+														<Attribute name="BlueprintSetID">
+															<iBlueprintLibrary-cBlueprintSetID>
+																<Element>
+																	<Value>
+																		<Attribute name="Provider">
+																			<cDeltaString>
+																				<Element>
+																					<Value>Developer</Value>
+																				</Element>
+																			</cDeltaString>
+																		</Attribute>
+																		<Attribute name="Product">
+																			<cDeltaString>
+																				<Element>
+																					<Value>Addon</Value>
+																				</Element>
+																			</cDeltaString>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</iBlueprintLibrary-cBlueprintSetID>
+														</Attribute>
+														<Attribute name="BlueprintID">
+															<cDeltaString>
+																<Element>
+																	<Value>Scenery\Characters\test_male.xml</Value>
+																</Element>
+															</cDeltaString>
+														</Attribute>
+													</Value>
+												</Element>
+											</iBlueprintLibrary-cAbsoluteBlueprintID>
+										</Attribute>
+										<Attribute name="PercentageUsage">
+											<sFloat32>
+												<Element>
+													<ToolData>
+														<Tool name="tool_cWinToolFloatDatum">
+															<cWinToolFloatDatum>
+																<Element>
+																	<Value>
+																		<Attribute name="mUnits">
+																			<cFxString8>
+																				<Element>
+																					<Value></Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																		<Attribute name="mTypedIn">
+																			<cFxString8>
+																				<Element>
+																					<Value>25</Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cWinToolFloatDatum>
+														</Tool>
+													</ToolData>
+													<Value>25.000000</Value>
+												</Element>
+											</sFloat32>
+										</Attribute>
+										<Attribute name="WalkGroundSpeed">
+											<sFloat32>
+												<Element>
+													<ToolData>
+														<Tool name="tool_cWinToolFloatDatum">
+															<cWinToolFloatDatum>
+																<Element>
+																	<Value>
+																		<Attribute name="mUnits">
+																			<cFxString8>
+																				<Element>
+																					<Value></Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																		<Attribute name="mTypedIn">
+																			<cFxString8>
+																				<Element>
+																					<Value>2.000000</Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cWinToolFloatDatum>
+														</Tool>
+													</ToolData>
+													<Value>2.000000</Value>
+												</Element>
+											</sFloat32>
+										</Attribute>
+										<Attribute name="ShuffleGroundSpeed">
+											<sFloat32>
+												<Element>
+													<ToolData>
+														<Tool name="tool_cWinToolFloatDatum">
+															<cWinToolFloatDatum>
+																<Element>
+																	<Value>
+																		<Attribute name="mUnits">
+																			<cFxString8>
+																				<Element>
+																					<Value></Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																		<Attribute name="mTypedIn">
+																			<cFxString8>
+																				<Element>
+																					<Value>1</Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cWinToolFloatDatum>
+														</Tool>
+													</ToolData>
+													<Value>1.000000</Value>
+												</Element>
+											</sFloat32>
+										</Attribute>
+									</Value>
+								</Element>
+							</cPlatformCharactersBlueprint-sPlatformCharacter>
+						</Value>
+					</Element>
+				</__Indexed__cPlatformCharactersBlueprint-sPlatformCharacter>
+			</Attribute>
+			<Attribute name="PopulationDensity">
+				<__Indexed__cPlatformCharactersBlueprint-sPopulationDensity>
+					<Element>
+						<Value>
+							<cPlatformCharactersBlueprint-sPopulationDensity>
+								<Element>
+									<Value>
+										<Attribute name="TimebandStart">
+											<cPlatformCharactersBlueprint-sTimeHoursMinutes>
+												<Element>
+													<Value>
+														<Attribute name="Hours">
+															<sInt32>
+																<Element>
+																	<Value>0</Value>
+																</Element>
+															</sInt32>
+														</Attribute>
+														<Attribute name="Minutes">
+															<sInt32>
+																<Element>
+																	<Value>0</Value>
+																</Element>
+															</sInt32>
+														</Attribute>
+													</Value>
+												</Element>
+											</cPlatformCharactersBlueprint-sTimeHoursMinutes>
+										</Attribute>
+										<Attribute name="DensityPercentage">
+											<sFloat32>
+												<Element>
+													<ToolData>
+														<Tool name="tool_cWinToolFloatDatum">
+															<cWinToolFloatDatum>
+																<Element>
+																	<Value>
+																		<Attribute name="mUnits">
+																			<cFxString8>
+																				<Element>
+																					<Value></Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																		<Attribute name="mTypedIn">
+																			<cFxString8>
+																				<Element>
+																					<Value>20</Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cWinToolFloatDatum>
+														</Tool>
+													</ToolData>
+													<Value>20.000000</Value>
+												</Element>
+											</sFloat32>
+										</Attribute>
+									</Value>
+								</Element>
+							</cPlatformCharactersBlueprint-sPopulationDensity>
+						</Value>
+					</Element>
+				</__Indexed__cPlatformCharactersBlueprint-sPopulationDensity>
+			</Attribute>
+		</Value>
+	</Element>
+</cPlatformCharactersBlueprint>

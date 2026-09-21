@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cTrafficControllerBlueprint>
+	<Element>
+		<Value>
+			<Attribute name="LaneProp">
+				<__Indexed__iTrafficControllerBlueprint-cLaneProp>
+					<Element>
+						<Value>
+							<iTrafficControllerBlueprint-cLaneProp>
+								<Element>
+									<Value>
+										<Attribute name="fMaxSpeed">
+											<sFloat32>
+												<Element>
+													<ToolData>
+														<Tool name="tool_cWinToolFloatDatum">
+															<cWinToolFloatDatum>
+																<Element>
+																	<Value>
+																		<Attribute name="mUnits">
+																			<cFxString8>
+																				<Element>
+																					<Value></Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																		<Attribute name="mTypedIn">
+																			<cFxString8>
+																				<Element>
+																					<Value>50</Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cWinToolFloatDatum>
+														</Tool>
+													</ToolData>
+													<Value>50.000000</Value>
+												</Element>
+											</sFloat32>
+										</Attribute>
+										<Attribute name="iPopulationDensity">
+											<sInt32>
+												<Element>
+													<Value>10</Value>
+												</Element>
+											</sInt32>
+										</Attribute>
+									</Value>
+								</Element>
+							</iTrafficControllerBlueprint-cLaneProp>
+							<iTrafficControllerBlueprint-cLaneProp>
+								<Element>
+									<Value>
+										<Attribute name="fMaxSpeed">
+											<sFloat32>
+												<Element>
+													<ToolData>
+														<Tool name="tool_cWinToolFloatDatum">
+															<cWinToolFloatDatum>
+																<Element>
+																	<Value>
+																		<Attribute name="mUnits">
+																			<cFxString8>
+																				<Element>
+																					<Value></Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																		<Attribute name="mTypedIn">
+																			<cFxString8>
+																				<Element>
+																					<Value>50</Value>
+																				</Element>
+																			</cFxString8>
+																		</Attribute>
+																	</Value>
+																</Element>
+															</cWinToolFloatDatum>
+														</Tool>
+													</ToolData>
+													<Value>50.000000</Value>
+												</Element>
+											</sFloat32>
+										</Attribute>
+										<Attribute name="iPopulationDensity">
+											<sInt32>
+												<Element>
+													<Value>10</Value>
+												</Element>
+											</sInt32>
+										</Attribute>
+									</Value>
+								</Element>
+							</iTrafficControllerBlueprint-cLaneProp>
+						</Value>
+					</Element>
+				</__Indexed__iTrafficControllerBlueprint-cLaneProp>
+			</Attribute>
+			<Attribute name="VehicleModel">
+				<__Indexed__iTrafficControllerBlueprint-cVehicleModel>
+					<Element>
+						<Value>
+							<iTrafficControllerBlueprint-cVehicleModel>
+								<Element>
+									<Value>
+										<Attribute name="BlueprintID">
+											<cDeltaString>
+												<Element>
+													<Value>Scenery\Vehicles\example_vehicle.xml</Value>
+												</Element>
+											</cDeltaString>
+										</Attribute>
+									</Value>
+								</Element>
+							</iTrafficControllerBlueprint-cVehicleModel>
+						</Value>
+					</Element>
+				</__Indexed__iTrafficControllerBlueprint-cVehicleModel>
+			</Attribute>
+			<Attribute name="_eNetworkType">
+				<eControllerType>
+					<Element>
+						<Value>CT_ROAD</Value>
+					</Element>
+				</eControllerType>
+			</Attribute>
+			<Attribute name="_fLaneWidth">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>1.2999999523162842</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>1.300000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="_eLaneDirection">
+				<eLaneDirection>
+					<Element>
+						<Value>LD_LEFT_HAND_DRIVE</Value>
+					</Element>
+				</eLaneDirection>
+			</Attribute>
+			<Attribute name="_fElevation">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>0.1</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>0.100000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="_eSpeedType">
+				<eSpeedType>
+					<Element>
+						<Value>ST_MPH</Value>
+					</Element>
+				</eSpeedType>
+			</Attribute>
+			<Attribute name="_iDensity">
+				<sInt32>
+					<Element>
+						<Value>10</Value>
+					</Element>
+				</sInt32>
+			</Attribute>
+			<Attribute name="_fReleaseIntHeavyTraffic">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>0.000000</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>0.000000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="_fReleaseIntLightTraffic">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>6</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>6.000000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="_fReleaseIntVeryLightTraffic">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>5</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>5.000000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="AudioControl">
+				<cDeltaString>
+					<Element>
+						<Value>Audio\Ambient\Roads\Road.xml</Value>
+					</Element>
+				</cDeltaString>
+			</Attribute>
+			<Attribute name="MaxSounds">
+				<sInt32>
+					<Element>
+						<Value>20</Value>
+					</Element>
+				</sInt32>
+			</Attribute>
+			<Attribute name="Delay">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>2</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>2.000000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="DelayVariation">
+				<sFloat32>
+					<Element>
+						<ToolData>
+							<Tool name="tool_cWinToolFloatDatum">
+								<cWinToolFloatDatum>
+									<Element>
+										<Value>
+											<Attribute name="mUnits">
+												<cFxString8>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+											<Attribute name="mTypedIn">
+												<cFxString8>
+													<Element>
+														<Value>0.000000</Value>
+													</Element>
+												</cFxString8>
+											</Attribute>
+										</Value>
+									</Element>
+								</cWinToolFloatDatum>
+							</Tool>
+						</ToolData>
+						<Value>0.000000</Value>
+					</Element>
+				</sFloat32>
+			</Attribute>
+			<Attribute name="BrowseInformation">
+				<iBrowseableBlueprint-cBrowseInformation>
+					<Element>
+						<Value>
+							<Attribute name="DisplayName">
+								<Localisation-cUserLocalisedString>
+									<Element>
+										<Value>
+											<Attribute name="English">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="French">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Italian">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="German">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Spanish">
+												<cDeltaString>
+													<Element>
+														<Value></Value>
+													</Element>
+												</cDeltaString>
+											</Attribute>
+											<Attribute name="Other">
+												<__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+													<Element>
+														<Value/>
+													</Element>
+												</__Indexed__Localisation-cUserLocalisedString-cOtherStringLangPair>
+											</Attribute>
+										</Value>
+									</Element>
+								</Localisation-cUserLocalisedString>
+							</Attribute>
+							<Attribute name="Category">
+								<iBrowseableBlueprint-eBrowseableCategory>
+									<Element>
+										<Value>eUncategorised</Value>
+									</Element>
+								</iBrowseableBlueprint-eBrowseableCategory>
+							</Attribute>
+							<Attribute name="ValidInScenarios">
+								<eBoolean>
+									<Element>
+										<Value>eFalse</Value>
+									</Element>
+								</eBoolean>
+							</Attribute>
+						</Value>
+					</Element>
+				</iBrowseableBlueprint-cBrowseInformation>
+			</Attribute>
+		</Value>
+	</Element>
+</cTrafficControllerBlueprint>

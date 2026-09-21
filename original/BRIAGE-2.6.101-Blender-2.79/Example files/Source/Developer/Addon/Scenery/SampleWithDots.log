@@ -1,0 +1,94 @@
+IGS EXPORTER:: 'INFO':  object 'Text' has been meshed in obj named: 'Text_conv'!
+Info:  object 'Text' has been meshed in obj named: 'Text_conv'!
+IGS EXPORTER:: 'PROPERTY': MainObject to find = Text
+Property: MainObject to find = Text
+IGS EXPORTER:: 'WARNING':  Main object Text not found or not visible
+Warning:  Main object Text not found or not visible
+IGS EXPORTER:: 'PROPERTY':  Main object selected = Text_conv
+Property:  Main object selected = Text_conv
+IGS EXPORTER:: 'INFO':  CenterMainObject: exported model moved by X=-0.072102 Y=-0.082644 Z=-1.232674 (Blender axis)
+
+Info:  CenterMainObject: exported model moved by X=-0.072102 Y=-0.082644 Z=-1.232674 (Blender axis)
+
+IGS EXPORTER:: 'WARNING':  Object 'Text_conv' processed as '1_1000_Text_conv' (to comply with LOD naming rule). The converted name is used for LOD processing and may be used if the object is head of group.
+Warning:  Object 'Text_conv' processed as '1_1000_Text_conv' (to comply with LOD naming rule). The converted name is used for LOD processing and may be used if the object is head of group.
+
+ ------------------ Groups list -----------------
+ --- 1 groups ---
+
+--- Group --- 1_1000_Text_conv (1 item)
+    LOD level 1 / LOD distance 1000 / keyword None
+    Parent group: None
+    Group objects:
+                  Text_conv
+
+IGS EXPORTER:: 'PROPERTY':  UVArguments for material Material: 0.0 0.0 0.0 0.0 0.0 0.0
+Property:  UVArguments for material Material: 0.0 0.0 0.0 0.0 0.0 0.0
+================================================================================
+IG file header information (0)
+--------------------------------------------------------------------------------
+CommentField                  : 'Blender 2.76 (sub 0) - IGS exporter version 1.5.004'
+ObjectCount                   : 1
+MeshCount                     : 1
+MaterialCount                 : 1
+================================================================================
+Materials list (1 materials):
+--------------------------------------------------------------------------------
+         Name         |             Shader             |              First texture               / UVArguments
+ Material             | TrainBasicObjectDiffuse.fx     | Textures\CubeWithDots                    / [0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+================================================================================
+--------------------------------------------------------------------------------
+Material main parameters [ 1 / 1 ] : 'Material'
+------------------------------.
+Name                          : 'Material'
+ShaderName                    : 'TrainBasicObjectDiffuse.fx'
+RenderStageCount              : 1
+RenderStage0 -------------------.
+  UVChannelIndex                : 0
+  FilterMode                    : 3
+  MipLODBias                    : 0.000000
+  AnimateUVs                    : 0
+  NumFrames                     : 0
+  FPS                           : 25
+  UVArguments                   : [0.000000,0.000000,0.000000,0.000000,0.000000,0.000000]
+ZBias                         : 0
+AlphaTestMode                 : 0
+ZBufferMode                   : 1
+BackfaceCull                  : 0
+TwoSided                      : 0
+ViewFacing                  : 0
+AmbientColor -------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+DiffuseColor -------------------.
+    Red                           : 0.800000
+    Green                         : 0.800000
+    Blue                          : 0.800000
+    Alpha                         : 1.000000
+EmissiveColor -------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+EmissiveStrength              :  0.000000
+SpecularColor ------------------.
+    Red                           : 1.000000
+    Green                         : 1.000000
+    Blue                          : 1.000000
+    Alpha                         : 1.000000
+SpecularPower                 : 25.000000
+================================================================================
+IGTextureNames               : [ 1 ]
+--------------------------------------------------------------------------------
+IGfTextureNames [ 1 / 1 ] (44)
+------------------------------.
+TextureNameListLength         : 22
+TextureNameCount              : 1
+--------------------------------------------------------------------------------
+TextureNameStartOffsetList -----.
+  TextureNameStartOffset[1]     : 0 (TextureName[1])
+TextureNameList ----------------.
+  TextureName[1]                : 'Textures\CubeWithDots'
+IGS EXPORTER:: 'INFO':  IGS export time: 0.06
