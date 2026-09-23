@@ -35,16 +35,16 @@
 
 #====================================================================INFO
 bl_info = {
-	"name": "BRIAGE - TS Intermediate scenes handler (.igs, .ia, .ace)",
-	"author": "Juju49, dom107",
-	"version": (3, 3, "101"),
-	"blender": (4, 1, 0),
-	"location": "Properties > Scene > IA/IGS export options;   Files > Import/Export;   Properties > Material",
-	"description": "Export IGS/IA Models  for DTG Train Simulator Classic and import IGS/IA/ACE files",
-	"warning": "",
-	"tracker_url": "julian.merle-remond@devmares.net",
-	"support": 'COMMUNITY', #'TESTING',
-	"category": "Import-Export"}
+    "name": "BRIAGE - TS Intermediate scenes handler [Fork]",
+    "author": "Juju49, dom107",
+    "version": (3, 3, 102),
+    "blender": (4, 2, 0),
+    "location": "Properties > Scene > IA/IGS export options;   Files > Import/Export;   Properties > Material",
+    "description": "Independent compatibility fork for Blender 4.2; export IGS/IA models for DTG Train Simulator Classic and import IGS/IA/ACE files",
+    "warning": "",
+    "tracker_url": "https://github.com/edwardtheiron/BRIAGE-Blender-Fork/issues",
+    "support": 'COMMUNITY',
+    "category": "Import-Export"}
 
 PCKG_VERSION = 'BRIAGE V' + '.'.join(str(i) for i in bl_info['version'])
 
