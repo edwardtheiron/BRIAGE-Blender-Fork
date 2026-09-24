@@ -708,10 +708,9 @@ def create_BLmesh(offsetIG:dict, offsetBlenderPtr:dict, IG_mesh_ptr:int, world_t
     #init mesh
     bl_mesh = bpy.data.meshes.new(str(IG_mesh_ptr))
 
-    # Устанавливаем авто-сглаживание через нормали
+    # Set smooth shading and initialize custom vertex normals
     bl_mesh.normals_split_custom_set_from_vertices([(0,0,1)] * len(bl_mesh.vertices))
 
-    # Или используем стандартные настройки сглаживания
     bl_mesh.shade_smooth()
     
     #create arrays:
@@ -835,10 +834,9 @@ def create_BLmesh(offsetIG:dict, offsetBlenderPtr:dict, IG_mesh_ptr:int, world_t
             #Get Vertex colours
             cur_loop[v_c] = *Vert.mColour,
             
-        #find quads from hidden edges as quads:
-        # ЗАМЕНА: Собираем рёбра заранее, чтобы не ломать итератор
+        # Reconstruct quads by dissolving hidden diagonal edges in a single batch operation.
     #find quads from hidden edges as quads:
-    # Пакетное удаление невидимых диагоналей для восстановления квадов
+    # Batch-dissolve hidden diagonal edges to reconstruct quads.
     edges_to_dissolve = [e for e in bm.edges if e.tag and len(e.link_faces) == 2]
     if edges_to_dissolve:
         bmesh.ops.dissolve_edges(bm, edges=edges_to_dissolve, use_verts=False)
@@ -850,10 +848,10 @@ def create_BLmesh(offsetIG:dict, offsetBlenderPtr:dict, IG_mesh_ptr:int, world_t
     bm.free()
     
     try:
-        # Обрезаем массив нормалей под фактическое количество вершин
+        # Limit the custom normal array to the actual number of vertices.
         bl_mesh.normals_split_custom_set_from_vertices(vertice_normal[:len(bl_mesh.vertices)])
     except RuntimeError:
-        print(f"Warning: Custom normals bypassed for {bl_mesh.name} due to data mismatch")    
+        print(f"Warning: Custom normals skipped for {bl_mesh.name} due to vertex/normal count mismatch")  
     
     bl_mesh.update()
     return bl_mesh, bool( IG_mesh.mIsSkinned )
