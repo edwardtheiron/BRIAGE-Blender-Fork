@@ -218,19 +218,16 @@ def _add_to_group(Config, mObjects_list, obj, parent_group, groups_list, process
             return
         
     if obj.type == 'EMPTY' and not len(obj.children):
-        #MODIF: snap points :
-        name_split = obj.name.split('_')
-        if ("#s" == name_split[0]) and len(name_split[0]) == 3:
+        # MODIF: snap points :
+        # Check first 3 characters for #ss, #st, or #sb prefix
+        prefix = obj.name[:3].lower()
+        if prefix in {'#ss', '#st', '#sb'}:
             obj_group = group_wrapper(0, 0, keyword, parent_group, obj.name, 'SPT')
             obj_group.objects_list.append(obj)
             
             _register_group(groups_list, obj_group)
             
-            
-            bpy.ops.igs_err.damned('EXEC_DEFAULT',type='INFO', message=" object '{0}' has been processed as Snap Point".format(obj.name)) # @UndefinedVariable
-                
-    
-    
+            bpy.ops.igs_err.damned('EXEC_DEFAULT', type='INFO', message=" object '{0}' has been processed as Snap Point".format(obj.name))
     
     elif obj.type == 'MESH': #MODIFS2016: auto nodes
         obj_group = None

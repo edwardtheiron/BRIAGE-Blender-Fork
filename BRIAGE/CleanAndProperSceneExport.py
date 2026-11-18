@@ -242,6 +242,16 @@ class CleanAndProperSceneExport():
             for obj in objects_list[:]:
                 _recursive_chd_add(obj, objects_list)
         
+        # Include visible snap points from the same collection(s) as the selected objects
+        if Config.use_selection:
+            ob_colls = set()
+            for ob in objects_list:
+                ob_colls.update(ob.users_collection)
+            for ob in context.visible_objects:
+                if ob.type == 'EMPTY' and ob.name[:3].lower() in {'#ss', '#st', '#sb'} and ob not in objects_list:
+                    if any(c in ob_colls for c in ob.users_collection):
+                        objects_list.append(ob)
+        
         #integrate armatures from modifiers
         if Config.process_bones:
             one_armature_found = False
@@ -285,7 +295,7 @@ class CleanAndProperSceneExport():
         bpy.ops.object.select_all(action='DESELECT')
         #Look for main object:
         bpy.ops.igs_err.damned('EXEC_DEFAULT', type='PROPERTY', message="MainObject to find = {:s}".format(main_obj_name))
-        if main_obj_name != "":
+        if main_obj_name != "" and not main_obj_name.startswith("#"):
             for ob in objects_list:
                 if ob.name == main_obj_name:
                     main_object_found = True

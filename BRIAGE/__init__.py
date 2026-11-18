@@ -37,7 +37,7 @@
 bl_info = {
     "name": "BRIAGE - TS Intermediate scenes handler [Fork]",
     "author": "Juju49, dom107",
-    "version": (3, 3, 102),
+    "version": (3, 3, 103),
     "blender": (4, 2, 0),
     "location": "Properties > Scene > IA/IGS export options;   Files > Import/Export;   Properties > Material",
     "description": "Independent compatibility fork for Blender 4.2; export IGS/IA models for DTG Train Simulator Classic and import IGS/IA/ACE files",

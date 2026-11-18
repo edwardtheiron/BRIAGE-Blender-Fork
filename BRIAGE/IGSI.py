@@ -537,19 +537,18 @@ def create_BLmtl(
                     if tex_name in already_imported_textures:
                         new_img = already_imported_textures[tex_name]
                     #if its an ace file, we create it
+                    # if its an ace file, we create it
                     elif ext == '.ace':
-                        #add try to pass butchered up SACE files
                         try:
                             new_img = create_image_from_ace(texture_from_blend)
                             already_imported_textures[tex_name] = new_img
-                        except (RuntimeError, NotImplementedError) as e:
-                            print(f"SACE: Import failed {texture_from_blend}")
+                        except Exception as e:
+                            print(f"BRIAGE Warning: Couldn't read ACE texture '{texture_from_blend}': {e}")
                             if PROFILE_MODE:
                                 import traceback
-                                print(e, traceback.format_exc())
-                            else:
-                                print(e)
-                            continue #as ACE is last format, it will trigger the "else" statement
+                                print(traceback.format_exc())
+                            new_img = None
+                            continue  # Skip 1-bit texture and try next format
                     #in other cases, blender can manage
                     else:
                         new_img = bpy.data.images.load(texture_from_blend, check_existing=True)
@@ -708,9 +707,10 @@ def create_BLmesh(offsetIG:dict, offsetBlenderPtr:dict, IG_mesh_ptr:int, world_t
     #init mesh
     bl_mesh = bpy.data.meshes.new(str(IG_mesh_ptr))
 
-    # Set smooth shading and initialize custom vertex normals
+    # Set custom normal smoothing
     bl_mesh.normals_split_custom_set_from_vertices([(0,0,1)] * len(bl_mesh.vertices))
 
+    # Set default smooth shading
     bl_mesh.shade_smooth()
     
     #create arrays:
@@ -834,9 +834,7 @@ def create_BLmesh(offsetIG:dict, offsetBlenderPtr:dict, IG_mesh_ptr:int, world_t
             #Get Vertex colours
             cur_loop[v_c] = *Vert.mColour,
             
-        # Reconstruct quads by dissolving hidden diagonal edges in a single batch operation.
-    #find quads from hidden edges as quads:
-    # Batch-dissolve hidden diagonal edges to reconstruct quads.
+        # Batch-dissolve hidden diagonal edges to reconstruct quads
     edges_to_dissolve = [e for e in bm.edges if e.tag and len(e.link_faces) == 2]
     if edges_to_dissolve:
         bmesh.ops.dissolve_edges(bm, edges=edges_to_dissolve, use_verts=False)
@@ -848,10 +846,10 @@ def create_BLmesh(offsetIG:dict, offsetBlenderPtr:dict, IG_mesh_ptr:int, world_t
     bm.free()
     
     try:
-        # Limit the custom normal array to the actual number of vertices.
+        # Limit custom normal array to actual number of vertices
         bl_mesh.normals_split_custom_set_from_vertices(vertice_normal[:len(bl_mesh.vertices)])
     except RuntimeError:
-        print(f"Warning: Custom normals skipped for {bl_mesh.name} due to vertex/normal count mismatch")  
+        print(f"Warning: Custom normals bypassed for {bl_mesh.name} due to data mismatch")    
     
     bl_mesh.update()
     return bl_mesh, bool( IG_mesh.mIsSkinned )
@@ -890,6 +888,9 @@ def create_BLobject_geometry_instances(offsetIG:dict, offsetBlenderPtr:dict, ins
     child_to_process_later = set()
     for b_child in IG_instance.mChildren: #register children
         #skip invalid GSC inside (if any exists)
+        if b_child in (4294967295, 0, -1) or b_child not in offsetIG:
+            continue  # Skip dummy / invalid pointer
+
         if not isinstance(offsetIG[b_child], IGInstance):
             bpy.ops.igs_err.damned('EXEC_DEFAULT', type='ERROR', # @UndefinedVariable
                 message=" Instance child is not an instance! Object '{0}' looking for '{1}'".format(IG_instance.mName.decode(*STRING_ENCODING), b_child)
@@ -905,8 +906,10 @@ def create_BLobject_geometry_instances(offsetIG:dict, offsetBlenderPtr:dict, ins
 def create_BLobject_GSC(offsetIG:dict, offsetBlenderPtr:dict, instance_offset:int ):
     IG_GSCitem = offsetIG[instance_offset]
     
-    new_ob = bpy.data.objects.new('#'+IG_GSCitem.mName.decode(*STRING_ENCODING), None)
-    if IG_GSCitem.mParent:
+    raw_name = IG_GSCitem.mName.decode(*STRING_ENCODING)
+    ob_name = raw_name if raw_name.startswith('#') else ('#' + raw_name)
+    new_ob = bpy.data.objects.new(ob_name, None)
+    if IG_GSCitem.mParent and IG_GSCitem.mParent in offsetBlenderPtr:
         new_ob.parent = offsetBlenderPtr[IG_GSCitem.mParent]
         
     new_ob.matrix_local = (TS_MATRIX @ IG_GSCitem.mTM.M @ TS_MATRIX).transposed()

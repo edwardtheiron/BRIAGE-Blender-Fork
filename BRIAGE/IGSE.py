@@ -1,4 +1,4 @@
-﻿# ##### BEGIN LICENSE BLOCK #####
+# ##### BEGIN LICENSE BLOCK #####
 #
 # Copyright (C) 2024 'Juju49'(MERLE-RÉMOND Julian), 'DOM107'
 # see license notes __init__.py
@@ -893,30 +893,31 @@ def create_bones_igs(IGctn, armat): #MODIFS2016: Bones
 def create_snapp_igs(IGctn, grp): #MODIFS2016: Snap points
 	obj = grp.objects_list[0]
 	
-	if obj.empty_display_type == 'ARROWS' and len(obj.children) == 0:
-		name_split = grp.name.split('_')
-		if ('#s' in name_split[0]) and (len(name_split[0]) == 3):
-			if len(obj.name) > IGF.MAX_OBJECT_NAME:
-				s_name = grp.name[:IGF.MAX_OBJECT_NAME]
-				bpy.ops.igs_err.damned('EXEC_DEFAULT',type='WARNING', message=" Snap Point '{:s}' processed using a truncated name at {:d} characters: '{:s}' (to comply with naming rule).".format(grp.name, MAX_NAME_WITH_LOD, s_name))  # @UndefinedVariable
-			else:
-				s_name = grp.name
-				
-			s_name = s_name[1:] #stripping "#"
+	if obj.type == 'EMPTY' and len(obj.children) == 0:
+		prefix = obj.name[:3].lower()
+		if prefix in {'#ss', '#st', '#sb'}:
+			s_name = grp.name
+			if s_name.startswith('#'):
+				s_name = s_name[1:] # stripping "#" for IGS format
+			
+			if len(s_name) > IGF.MAX_OBJECT_NAME:
+				s_name = s_name[:IGF.MAX_OBJECT_NAME]
+				bpy.ops.igs_err.damned('EXEC_DEFAULT', type='WARNING', message=" Snap Point '{:s}' processed using a truncated name at {:d} characters: '{:s}' (to comply with naming rule).".format(grp.name, IGF.MAX_OBJECT_NAME, s_name))  # @UndefinedVariable
 			
 			matrix = IGctn.global_transform_matrix @ obj.matrix_world
 			s_TM = IGF.IGsMatrix4x4.new_to_TS_screenspace(matrix)
 			
-			s_BoundingBox = IGF.IGsBoundingBox()
+			# In standard 3ds Max IGS, bounding box is all zeros
+			s_BoundingBox = IGF.IGsBoundingBox(
+				mini=IGF.IGsVector4(0.0, 0.0, 0.0, 0.0),
+				maxi=IGF.IGsVector4(0.0, 0.0, 0.0, 0.0)
+			)
 			
+			# Snap points are always root items (parent=0) in TS/IGS
 			s_Parent = 0
-			if obj.parent:
-				for i, instance in enumerate(IGctn.instances_list):
-					if instance.mName.decode() == obj.parent.name:
-						s_Parent = i + 1
 			
 			s_Data = IGF.IGGenericSceneData()
-			new_snap_point = IGF.IGGenericSceneItem(s_name.encode(), IGctn.gscitems_count, s_TM, s_BoundingBox, s_Parent, s_Data)
+			new_snap_point = IGF.IGGenericSceneItem(s_name.encode('ascii', 'ignore'), 0, s_TM, s_BoundingBox, s_Parent, s_Data)
 			
 			IGctn.gscitems_list.append(new_snap_point)
 			IGctn.gscitems_count += 1

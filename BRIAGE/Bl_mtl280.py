@@ -171,11 +171,11 @@ def Import_TS_node_groups():
     global IMPORTED_GROUPS
     if 'TS_base' in IMPORTED_GROUPS:
         try:
-            # Check whether the cached node group reference is still valid.
+            # Check whether the cached node group reference is still valid
             _ = IMPORTED_GROUPS['TS_base'].name
             return
         except ReferenceError:
-            # Blender has removed the referenced node group; clear the stale cache.
+            # Blender has removed the referenced node group; clear stale cache
             IMPORTED_GROUPS.clear()
 
     from BRIAGE import BINARY_PATH

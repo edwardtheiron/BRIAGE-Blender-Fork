@@ -1,4 +1,4 @@
-﻿# ##### BEGIN LICENSE BLOCK #####
+# ##### BEGIN LICENSE BLOCK #####
 #
 # Copyright (C) 2024  'DOM107', 'Juju49'(MERLE-RÉMOND Julian)
 # see license notes __init__.py
@@ -2057,7 +2057,7 @@ class IGGenericSceneData(_MetaIGClass, metaclass=LengthMetaclass): #MODIFS2016
 	
 	@classmethod	
 	def __len__(self):
-		return 72
+		return 84
 
 	def write(self, file):
 		file.write(struct.pack('<I', self.mType))
@@ -2072,8 +2072,8 @@ class IGGenericSceneData(_MetaIGClass, metaclass=LengthMetaclass): #MODIFS2016
 		ncls = cls()
 		data = struct.unpack('<5I4f', file.read(36))
 		ncls.mType = data[0]
-		ncls.mICustomParam = tuple(data[1:4])
-		ncls.mFCustomParam = tuple(data[5:8])
+		ncls.mICustomParam = tuple(data[1:5])
+		ncls.mFCustomParam = tuple(data[5:9])
 		ncls.mExtraData = IGDataBlockContainer.load(file)
 		return ncls
 		

@@ -648,9 +648,9 @@ class IO_OT_IGSExporter(bpy.types.Operator):
 		wm.fileselect_add(self)
 		return {"RUNNING_MODAL"}
         
-
-	# Additional options for export interface
-
+	# ================================================================
+	# File-save dialog UI options
+	# ================================================================
 	def draw(self, context):
 		layout = self.layout
 		layout.use_property_split = True

@@ -341,10 +341,14 @@ def checkScene(Config, objects_list):
 	assert objects_list, "SceneCheck: Empty object list"
 
 	for ob in objects_list:
+		# Allow snap points to pass export check without materials
+		if ob.type == 'EMPTY' and ob.name[:3].lower() in {'#ss', '#st', '#sb'}:
+			continue
+			
 		if ob.type == 'MESH':
 			if len(ob.children) > MAX_CHILDREN:
-					bpy.ops.igs_err.damned('INVOKE_DEFAULT',type='ERROR',  # @undefinedVariable
-						message=f" Too many children for object '{ob.name}'! : {len(ob.children)} > {MAX_CHILDREN}")
+				bpy.ops.igs_err.damned('INVOKE_DEFAULT',type='ERROR',  # @undefinedVariable
+				message=f" Too many children for object '{ob.name}'! : {len(ob.children)} > {MAX_CHILDREN}")
 			
 			_checkLOD(Config, ob, objects_list)
 				

@@ -1,3 +1,17 @@
+## 3.3.103 — Snap Points and Binary Format Alignment
+
+### Snap Points support (Train Simulator 2015+)
+- Added full export support for empty snap points (`#ss_`, `#st_`, `#sb_`) with any display type (including default `PLAIN_AXES`).
+- Fixed snap point bounding box alignment (zeroed values matching 3ds Max IGS standard) and stripped leading `#` prefix in IGS generic scene items.
+- Automatically included visible snap points in export selection when sharing collections with selected objects.
+- Allowed snap point empties to pass export checks without requiring materials.
+- Fixed main object detection to ignore helper and snap point empties starting with `#`.
+
+### Binary IGS struct fixes
+- Fixed `IGGenericSceneData` binary structure length and parameter unpacking slices in `_datastructs/IGF.py` (`len: 84`, unpacking `5I4f`).
+- Handled invalid and dummy child pointers (`0xFFFFFFFF`, `0`, `-1`) during IGS instance hierarchy reconstruction.
+- Prevented double `#` prefixing when re-importing generic scene items.
+
 ## 3.3.102 — Blender 4.2 compatibility fork
 
 This is the first release of the independently maintained BRIAGE-Fork.

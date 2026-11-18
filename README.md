@@ -16,7 +16,7 @@ directory for reference and historical provenance.
 
 ## Current version
 
-**BRIAGE-Fork 3.3.102**
+**BRIAGE-Fork 3.3.103**
 
 **Supported Blender version: 4.2.x**
 
@@ -44,10 +44,10 @@ Original BRIAGE releases preserved in this repository:
 
 ## Installation
 
-1. Download the latest `BRIAGE-Fork` release.
-2. In Blender, open **Edit → Preferences → Add-ons**.
-3. Select **Install...**
-4. Select the BRIAGE-Fork ZIP archive.
+1. Download the latest `BRIAGE-v3.3.103.zip` release.
+2. In Blender 4.2, open **Edit → Preferences → Add-ons** (or **Get Extensions**).
+3. Click the menu dropdown in the top-right corner (`⌵`) and select **Install from Disk...**
+4. Select the downloaded ZIP archive.
 5. Enable the add-on.
 
 ## Development status
